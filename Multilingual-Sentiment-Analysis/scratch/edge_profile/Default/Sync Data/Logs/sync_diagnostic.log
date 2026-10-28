@@ -1,0 +1,128 @@
+2026-10-28 15:08:17.573: [INFO][Sync] SyncState after authenticated was: FeatureNotSetup
+2026-10-28 15:08:17.670: [INFO][Sync] Try to start sync engine
+2026-10-28 15:08:17.670: [INFO][SyncManagerImpl::NudgeForInitialDownload] Initial download nudge for Encryption Keys
+2026-10-28 15:08:17.670: [INFO][SyncEngineBackend::LoadAndConnectNigoriController] Load and connect Nigori controller
+2026-10-28 15:08:17.670: [INFO][SyncEngineBackend::DoInitialize] Control Types added: Encryption Keys
+2026-10-28 15:08:17.670: [INFO][SyncManagerImpl::ConfigureSyncer] Types to download: Encryption Keys with reason: 3
+2026-10-28 15:08:17.670: [INFO][SyncSchedulerImpl::DoConfigurationSyncCycleJob] Configure job was blocked
+2026-10-28 15:08:17.793: [INFO][SyncAuthManager::SetLastAuthError] Current auth error: None
+2026-10-28 15:08:17.793: [INFO][SyncAuthManager::EdgeLogTokenErrorState] Token error with: None for account type: MSA
+2026-10-28 15:08:17.793: [INFO][Sync] Credentials changed for: EdgeSyncScopeNew
+2026-10-28 15:08:17.852: [INFO][SyncAuthManager::SetLastAuthError] Current auth error: None
+2026-10-28 15:08:17.852: [INFO][SyncAuthManager::EdgeLogTokenErrorState] Token error with: None for account type: MSA
+2026-10-28 15:08:17.852: [INFO][Sync] Credentials changed for: EdgeSyncKeyDataScope
+2026-10-28 15:08:17.852: [INFO][SyncEngineBackend::DoUpdateKeyDataCredentials] Update key data credentials
+2026-10-28 15:08:17.852: [INFO][SyncEngineBackend::DoUpdateCredentials] Update credentials
+2026-10-28 15:08:17.852: [INFO][SyncSchedulerImpl::DoConfigurationSyncCycleJob] Blocked types:  and types to download: Encryption Keys
+2026-10-28 15:08:18.394: [INFO][Sync] Started DataTypeManager configuration, reason: 4
+2026-10-28 15:08:18.395: [INFO][Sync] Configuring for: Extensions, Extension settings, Device Info, User Consents, Send Tab To Self, Web Apps, Encryption Keys, reason: 3, current state: 0
+2026-10-28 15:08:18.395: [WARN][Sync] Crypto error data types: 
+2026-10-28 15:08:18.396: [INFO][Sync] Configure, desired: Extensions, Extension settings, Device Info, User Consents, Send Tab To Self, Web Apps, Encryption Keys; Allow fail: 
+2026-10-28 15:08:18.397: [INFO][Sync] Loading: Extensions
+2026-10-28 15:08:18.397: [INFO][Sync] Loading: Extension settings
+2026-10-28 15:08:18.397: [INFO][Sync] Loading: Device Info
+2026-10-28 15:08:18.397: [INFO][Sync] Loading: User Consents
+2026-10-28 15:08:18.397: [INFO][Sync] Loading: Send Tab To Self
+2026-10-28 15:08:18.397: [INFO][Sync] Loading: Web Apps
+2026-10-28 15:08:18.399: [INFO][Sync] All data types are ready for configure.
+2026-10-28 15:08:19.223: [INFO][Sync] Started DataTypeManager configuration, reason: 5
+2026-10-28 15:08:19.223: [INFO][Sync] Configuring for: Extensions, Extension settings, Device Info, User Consents, Send Tab To Self, Web Apps, Encryption Keys, reason: 5, current state: 1
+2026-10-28 15:08:19.226: [INFO][SyncEngineBackend::DoStartConfiguration] Start configuration
+2026-10-28 15:08:19.226: [INFO][SyncManagerImpl::NudgeForInitialDownload] Initial download nudge for Extensions
+2026-10-28 15:08:19.226: [INFO][SyncManagerImpl::NudgeForInitialDownload] Initial download nudge for Extension settings
+2026-10-28 15:08:19.226: [INFO][SyncManagerImpl::NudgeForInitialDownload] Initial download nudge for Device Info
+2026-10-28 15:08:19.226: [INFO][SyncManagerImpl::NudgeForInitialDownload] Initial download nudge for Send Tab To Self
+2026-10-28 15:08:19.226: [INFO][SyncManagerImpl::NudgeForInitialDownload] Initial download nudge for Web Apps
+2026-10-28 15:08:19.226: [INFO][SyncManagerImpl::ConfigureSyncer] Types to download:  with reason: 3
+2026-10-28 15:08:19.226: [INFO][SyncEngineBackend::DoFinishConfigureDataTypes] Failed to download types:  and succeeded types: 
+2026-10-28 15:08:19.227: [INFO][Sync] ConfigurationDone, failed: , succeeded: , remaining count: 2
+2026-10-28 15:08:19.227: [WARN][Sync]     Reconfigure requested while configuration ongoing.
+2026-10-28 15:08:19.227: [INFO][Sync] Configuring for: Extensions, Extension settings, Device Info, User Consents, Send Tab To Self, Web Apps, Encryption Keys, reason: 5, current state: 2
+2026-10-28 15:08:19.227: [INFO][Sync] Configure, desired: Extensions, Extension settings, Device Info, User Consents, Send Tab To Self, Web Apps, Encryption Keys; Allow fail: 
+2026-10-28 15:08:19.227: [INFO][Sync] All data types are ready for configure.
+2026-10-28 15:08:19.227: [INFO][SyncManagerImpl::ConfigureSyncer] Types to download:  with reason: 5
+2026-10-28 15:08:19.227: [INFO][SyncEngineBackend::DoFinishConfigureDataTypes] Failed to download types:  and succeeded types: 
+2026-10-28 15:08:19.227: [INFO][Sync] ConfigurationDone, failed: , succeeded: , remaining count: 2
+2026-10-28 15:08:19.227: [INFO][Sync] Prepare to configure types: Device Info, Encryption Keys
+2026-10-28 15:08:19.227: [INFO][SyncManagerImpl::ConfigureSyncer] Types to download: Device Info, Encryption Keys with reason: 5
+2026-10-28 15:08:19.227: [INFO][SyncSchedulerImpl::DoConfigurationSyncCycleJob] Blocked types:  and types to download: Device Info, Encryption Keys
+2026-10-28 15:08:20.102: [INFO][SyncEngineBackend::DoFinishConfigureDataTypes] Failed to download types:  and succeeded types: Device Info, Encryption Keys
+2026-10-28 15:08:20.105: [INFO][Sync] ConfigurationDone, failed: , succeeded: Device Info, Encryption Keys, remaining count: 1
+2026-10-28 15:08:20.105: [INFO][Sync] Prepare to configure types: Extensions, Extension settings, Send Tab To Self, Web Apps, Encryption Keys
+2026-10-28 15:08:20.105: [INFO][SyncManagerImpl::ConfigureSyncer] Types to download: Extensions, Extension settings, Send Tab To Self, Web Apps, Encryption Keys with reason: 5
+2026-10-28 15:08:20.105: [INFO][SyncSchedulerImpl::DoConfigurationSyncCycleJob] Blocked types:  and types to download: Extensions, Extension settings, Send Tab To Self, Web Apps, Encryption Keys
+2026-10-28 15:08:20.742: [INFO][SyncEngineBackend::DoFinishConfigureDataTypes] Failed to download types:  and succeeded types: Extensions, Extension settings, Send Tab To Self, Web Apps, Encryption Keys
+2026-10-28 15:08:20.745: [INFO][Sync] ConfigurationDone, failed: , succeeded: Extensions, Extension settings, Send Tab To Self, Web Apps, Encryption Keys, remaining count: 0
+2026-10-28 15:08:20.745: [INFO][Sync]     Configuration completed, state: 7
+2026-10-28 15:08:20.745: [INFO][Sync] Configured DataTypeManager: Ok
+2026-10-28 15:08:20.747: [INFO][SyncEngineBackend::DoStartSyncing] Start syncing
+2026-10-28 15:17:38.706: [INFO][Sync] SyncState after authenticated was: FeatureNotSetup
+2026-10-28 15:17:38.810: [INFO][Sync] Try to start sync engine
+2026-10-28 15:17:38.811: [INFO][SyncManagerImpl::NudgeForInitialDownload] Initial download nudge for Encryption Keys
+2026-10-28 15:17:38.811: [INFO][SyncEngineBackend::LoadAndConnectNigoriController] Load and connect Nigori controller
+2026-10-28 15:17:38.811: [INFO][SyncEngineBackend::DoInitialize] Control Types added: Encryption Keys
+2026-10-28 15:17:38.811: [INFO][SyncManagerImpl::ConfigureSyncer] Types to download: Encryption Keys with reason: 3
+2026-10-28 15:17:38.811: [INFO][SyncSchedulerImpl::DoConfigurationSyncCycleJob] Configure job was blocked
+2026-10-28 15:17:38.939: [INFO][SyncAuthManager::SetLastAuthError] Current auth error: None
+2026-10-28 15:17:38.939: [INFO][SyncAuthManager::EdgeLogTokenErrorState] Token error with: None for account type: MSA
+2026-10-28 15:17:38.939: [INFO][Sync] Credentials changed for: EdgeSyncScopeNew
+2026-10-28 15:17:39.000: [INFO][SyncAuthManager::SetLastAuthError] Current auth error: None
+2026-10-28 15:17:39.000: [INFO][SyncAuthManager::EdgeLogTokenErrorState] Token error with: None for account type: MSA
+2026-10-28 15:17:39.000: [INFO][Sync] Credentials changed for: EdgeSyncKeyDataScope
+2026-10-28 15:17:39.000: [INFO][SyncEngineBackend::DoUpdateKeyDataCredentials] Update key data credentials
+2026-10-28 15:17:39.000: [INFO][SyncEngineBackend::DoUpdateCredentials] Update credentials
+2026-10-28 15:17:39.000: [INFO][SyncSchedulerImpl::DoConfigurationSyncCycleJob] Blocked types:  and types to download: Encryption Keys
+2026-10-28 15:17:39.484: [INFO][Sync] Started DataTypeManager configuration, reason: 4
+2026-10-28 15:17:39.484: [INFO][Sync] Configuring for: Extensions, Extension settings, Device Info, User Consents, Send Tab To Self, Web Apps, Encryption Keys, reason: 3, current state: 0
+2026-10-28 15:17:39.484: [WARN][Sync] Crypto error data types: 
+2026-10-28 15:17:39.487: [INFO][Sync] Configure, desired: Extensions, Extension settings, Device Info, User Consents, Send Tab To Self, Web Apps, Encryption Keys; Allow fail: 
+2026-10-28 15:17:39.487: [INFO][Sync] Loading: Extensions
+2026-10-28 15:17:39.487: [INFO][Sync] Loading: Extension settings
+2026-10-28 15:17:39.487: [INFO][Sync] Loading: Device Info
+2026-10-28 15:17:39.487: [INFO][Sync] Loading: User Consents
+2026-10-28 15:17:39.487: [INFO][Sync] Loading: Send Tab To Self
+2026-10-28 15:17:39.487: [INFO][Sync] Loading: Web Apps
+2026-10-28 15:17:39.492: [INFO][Sync] All data types are ready for configure.
+2026-10-28 15:17:40.083: [INFO][Sync] Connection status changed to: 2
+2026-10-28 15:17:40.083: [INFO][SyncEngineBackend::DoStartConfiguration] Start configuration
+2026-10-28 15:17:40.083: [INFO][SyncManagerImpl::NudgeForInitialDownload] Initial download nudge for Extensions
+2026-10-28 15:17:40.083: [INFO][SyncManagerImpl::NudgeForInitialDownload] Initial download nudge for Extension settings
+2026-10-28 15:17:40.083: [INFO][SyncManagerImpl::NudgeForInitialDownload] Initial download nudge for Device Info
+2026-10-28 15:17:40.083: [INFO][SyncManagerImpl::NudgeForInitialDownload] Initial download nudge for Send Tab To Self
+2026-10-28 15:17:40.083: [INFO][SyncManagerImpl::NudgeForInitialDownload] Initial download nudge for Web Apps
+2026-10-28 15:17:40.083: [INFO][SyncManagerImpl::ConfigureSyncer] Types to download:  with reason: 3
+2026-10-28 15:17:40.083: [INFO][SyncEngineBackend::DoFinishConfigureDataTypes] Failed to download types:  and succeeded types: 
+2026-10-28 15:17:40.086: [INFO][Sync] ConfigurationDone, failed: , succeeded: , remaining count: 2
+2026-10-28 15:17:40.087: [INFO][Sync] Prepare to configure types: Device Info, Encryption Keys
+2026-10-28 15:17:40.087: [INFO][SyncManagerImpl::ConfigureSyncer] Types to download: Device Info, Encryption Keys with reason: 3
+2026-10-28 15:17:40.087: [INFO][SyncSchedulerImpl::DoConfigurationSyncCycleJob] Blocked types:  and types to download: Device Info, Encryption Keys
+2026-10-28 15:17:40.129: [INFO][SyncAuthManager::SetLastAuthError] Current auth error: None
+2026-10-28 15:17:40.129: [INFO][SyncAuthManager::EdgeLogTokenErrorState] Token error with: None for account type: MSA
+2026-10-28 15:17:40.129: [INFO][Sync] Credentials changed for: EdgeSyncKeyDataScope
+2026-10-28 15:17:40.745: [INFO][SyncEngineBackend::DoFinishConfigureDataTypes] Failed to download types:  and succeeded types: Device Info, Encryption Keys
+2026-10-28 15:17:40.747: [INFO][Sync] ConfigurationDone, failed: , succeeded: Device Info, Encryption Keys, remaining count: 1
+2026-10-28 15:17:40.747: [INFO][Sync] Prepare to configure types: Extensions, Extension settings, Send Tab To Self, Web Apps, Encryption Keys
+2026-10-28 15:17:40.906: [INFO][SyncAuthManager::SetLastAuthError] Current auth error: None
+2026-10-28 15:17:40.906: [INFO][SyncAuthManager::EdgeLogTokenErrorState] Token error with: None for account type: MSA
+2026-10-28 15:17:40.906: [INFO][Sync] Credentials changed for: EdgeSyncScopeNew
+2026-10-28 15:17:41.283: [INFO][SyncEngineBackend::DoUpdateKeyDataCredentials] Update key data credentials
+2026-10-28 15:17:41.283: [INFO][SyncManagerImpl::ConfigureSyncer] Types to download: Extensions, Extension settings, Send Tab To Self, Web Apps, Encryption Keys with reason: 3
+2026-10-28 15:17:41.283: [INFO][SyncEngineBackend::DoUpdateCredentials] Update credentials
+2026-10-28 15:17:41.283: [INFO][Sync] Connection status changed to: 2
+2026-10-28 15:17:41.283: [INFO][SyncEngineBackend::DoUpdateKeyDataCredentials] Update key data credentials
+2026-10-28 15:17:41.283: [INFO][SyncSchedulerImpl::DoConfigurationSyncCycleJob] Blocked types:  and types to download: Extensions, Extension settings, Send Tab To Self, Web Apps, Encryption Keys
+2026-10-28 15:17:41.939: [INFO][SyncEngineBackend::DoFinishConfigureDataTypes] Failed to download types:  and succeeded types: Extensions, Extension settings, Send Tab To Self, Web Apps, Encryption Keys
+2026-10-28 15:17:41.943: [INFO][Sync] ConfigurationDone, failed: , succeeded: Extensions, Extension settings, Send Tab To Self, Web Apps, Encryption Keys, remaining count: 0
+2026-10-28 15:17:41.943: [INFO][Sync]     Configuration completed, state: 3
+2026-10-28 15:17:41.943: [INFO][Sync] Configured DataTypeManager: Ok
+2026-10-28 15:17:42.648: [INFO][Sync] Connection status changed to: 2
+2026-10-28 15:17:42.648: [INFO][SyncEngineBackend::DoStartSyncing] Start syncing
+2026-10-28 15:17:43.061: [INFO][SyncAuthManager::SetLastAuthError] Current auth error: None
+2026-10-28 15:17:43.061: [INFO][SyncAuthManager::EdgeLogTokenErrorState] Token error with: None for account type: MSA
+2026-10-28 15:17:43.061: [INFO][Sync] Credentials changed for: EdgeSyncScopeNew
+2026-10-28 15:17:43.340: [INFO][SyncAuthManager::SetLastAuthError] Current auth error: None
+2026-10-28 15:17:43.340: [INFO][SyncAuthManager::EdgeLogTokenErrorState] Token error with: None for account type: MSA
+2026-10-28 15:17:43.340: [INFO][Sync] Credentials changed for: EdgeSyncKeyDataScope
+2026-10-28 15:17:45.326: [INFO][SyncEngineBackend::DoUpdateKeyDataCredentials] Update key data credentials
+2026-10-28 15:17:45.326: [INFO][SyncEngineBackend::DoUpdateCredentials] Update credentials
+2026-10-28 15:17:45.327: [INFO][Sync] Connection status changed to: 2

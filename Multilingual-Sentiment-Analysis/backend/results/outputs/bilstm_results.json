@@ -1,0 +1,158 @@
+{
+  "model_name": "Deep Learning BiLSTM (Subword-Aware PyTorch)",
+  "overall": {
+    "accuracy": 0.5806,
+    "macro_f1": 0.5768,
+    "weighted_f1": 0.5783,
+    "precision_macro": 0.5779,
+    "recall_macro": 0.5792,
+    "latency_ms_per_sample": 2.894,
+    "train_time_sec": 828.66,
+    "test_sample_count": 2952
+  },
+  "per_class_f1": {
+    "Positive": 0.6263,
+    "Negative": 0.6041,
+    "Neutral": 0.5
+  },
+  "confusion_matrix": {
+    "labels": [
+      "Positive",
+      "Negative",
+      "Neutral"
+    ],
+    "matrix": [
+      [
+        657,
+        148,
+        169
+      ],
+      [
+        200,
+        612,
+        226
+      ],
+      [
+        267,
+        228,
+        445
+      ]
+    ]
+  },
+  "per_language": {
+    "en": {
+      "samples": 270,
+      "accuracy": 0.5481,
+      "macro_f1": 0.5478,
+      "precision_macro": 0.5481,
+      "recall_macro": 0.5481
+    },
+    "hi": {
+      "samples": 315,
+      "accuracy": 0.527,
+      "macro_f1": 0.5245,
+      "precision_macro": 0.5301,
+      "recall_macro": 0.527
+    },
+    "hi-Latn": {
+      "samples": 477,
+      "accuracy": 0.6583,
+      "macro_f1": 0.6317,
+      "precision_macro": 0.6471,
+      "recall_macro": 0.6266
+    },
+    "fr": {
+      "samples": 270,
+      "accuracy": 0.5926,
+      "macro_f1": 0.5839,
+      "precision_macro": 0.5849,
+      "recall_macro": 0.5926
+    },
+    "es": {
+      "samples": 270,
+      "accuracy": 0.6037,
+      "macro_f1": 0.5985,
+      "precision_macro": 0.5963,
+      "recall_macro": 0.6037
+    },
+    "de": {
+      "samples": 270,
+      "accuracy": 0.6,
+      "macro_f1": 0.5947,
+      "precision_macro": 0.593,
+      "recall_macro": 0.6
+    },
+    "it": {
+      "samples": 270,
+      "accuracy": 0.5556,
+      "macro_f1": 0.5519,
+      "precision_macro": 0.5618,
+      "recall_macro": 0.5556
+    },
+    "pt": {
+      "samples": 270,
+      "accuracy": 0.6185,
+      "macro_f1": 0.6143,
+      "precision_macro": 0.6124,
+      "recall_macro": 0.6185
+    },
+    "ar": {
+      "samples": 270,
+      "accuracy": 0.4889,
+      "macro_f1": 0.4835,
+      "precision_macro": 0.5075,
+      "recall_macro": 0.4889
+    },
+    "ja": {
+      "samples": 270,
+      "accuracy": 0.563,
+      "macro_f1": 0.5578,
+      "precision_macro": 0.5864,
+      "recall_macro": 0.563
+    }
+  },
+  "training_history": [
+    {
+      "epoch": 1,
+      "train_loss": 1.0659,
+      "val_loss": 1.0035,
+      "val_accuracy": 0.4934,
+      "val_macro_f1": 0.4466
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.9559,
+      "val_loss": 0.9399,
+      "val_accuracy": 0.5381,
+      "val_macro_f1": 0.5281
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.8599,
+      "val_loss": 0.9346,
+      "val_accuracy": 0.5737,
+      "val_macro_f1": 0.5666
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.7734,
+      "val_loss": 0.9457,
+      "val_accuracy": 0.5813,
+      "val_macro_f1": 0.5774
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.6939,
+      "val_loss": 1.0124,
+      "val_accuracy": 0.5884,
+      "val_macro_f1": 0.5849
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.6111,
+      "val_loss": 0.9929,
+      "val_accuracy": 0.5823,
+      "val_macro_f1": 0.5809
+    }
+  ]
+}

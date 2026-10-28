@@ -1,0 +1,183 @@
+{
+  "metadata": {
+    "title": "GlobalSense AI Multilingual Sentiment Corpus",
+    "seed": 42,
+    "classes": [
+      "Positive",
+      "Negative",
+      "Neutral"
+    ],
+    "target_languages": [
+      "en",
+      "hi",
+      "hi-Latn",
+      "fr",
+      "es",
+      "de",
+      "it",
+      "pt",
+      "ar",
+      "ja"
+    ],
+    "min_test_samples_threshold": 200
+  },
+  "records": {
+    "initial_collected": 19690,
+    "post_dedup": 19679,
+    "train_count": 14759,
+    "val_count": 1968,
+    "test_count": 2952
+  },
+  "distributions": {
+    "overall_labels": {
+      "Positive": 6492,
+      "Negative": 6921,
+      "Neutral": 6266
+    },
+    "overall_languages": {
+      "en": 1800,
+      "fr": 1800,
+      "es": 1800,
+      "de": 1800,
+      "it": 1800,
+      "pt": 1800,
+      "ar": 1800,
+      "ja": 1800,
+      "hi": 2098,
+      "hi-Latn": 3181
+    },
+    "train_languages": {
+      "de": 1350,
+      "hi-Latn": 2386,
+      "ja": 1350,
+      "it": 1350,
+      "fr": 1350,
+      "en": 1350,
+      "hi": 1573,
+      "ar": 1350,
+      "es": 1350,
+      "pt": 1350
+    },
+    "val_languages": {
+      "hi": 210,
+      "en": 180,
+      "pt": 180,
+      "it": 180,
+      "hi-Latn": 318,
+      "ar": 180,
+      "de": 180,
+      "fr": 180,
+      "es": 180,
+      "ja": 180
+    },
+    "test_languages": {
+      "fr": 270,
+      "de": 270,
+      "pt": 270,
+      "hi": 315,
+      "ar": 270,
+      "hi-Latn": 477,
+      "ja": 270,
+      "es": 270,
+      "it": 270,
+      "en": 270
+    }
+  },
+  "supported_evaluation_audit": {
+    "en": {
+      "test_samples": 270,
+      "meets_threshold": true,
+      "status": "supported"
+    },
+    "hi": {
+      "test_samples": 315,
+      "meets_threshold": true,
+      "status": "supported"
+    },
+    "hi-Latn": {
+      "test_samples": 477,
+      "meets_threshold": true,
+      "status": "supported"
+    },
+    "fr": {
+      "test_samples": 270,
+      "meets_threshold": true,
+      "status": "supported"
+    },
+    "es": {
+      "test_samples": 270,
+      "meets_threshold": true,
+      "status": "supported"
+    },
+    "de": {
+      "test_samples": 270,
+      "meets_threshold": true,
+      "status": "supported"
+    },
+    "it": {
+      "test_samples": 270,
+      "meets_threshold": true,
+      "status": "supported"
+    },
+    "pt": {
+      "test_samples": 270,
+      "meets_threshold": true,
+      "status": "supported"
+    },
+    "ar": {
+      "test_samples": 270,
+      "meets_threshold": true,
+      "status": "supported"
+    },
+    "ja": {
+      "test_samples": 270,
+      "meets_threshold": true,
+      "status": "supported"
+    }
+  },
+  "datasources": [
+    {
+      "name": "clapAI/MultiLingualSentiment",
+      "license": "Apache-2.0",
+      "languages_used": [
+        "en",
+        "fr",
+        "es",
+        "de",
+        "it",
+        "pt",
+        "ar",
+        "ja"
+      ],
+      "labels": [
+        "Positive",
+        "Negative",
+        "Neutral"
+      ]
+    },
+    {
+      "name": "iam-tsr/hindi-sentiments",
+      "license": "MIT",
+      "languages_used": [
+        "hi (Devanagari)"
+      ],
+      "labels": [
+        "Positive",
+        "Negative",
+        "Neutral"
+      ]
+    },
+    {
+      "name": "shae2977/hinglish-youtube-sentiments-dataset",
+      "license": "CC-BY-4.0",
+      "languages_used": [
+        "hi-Latn (Hinglish)"
+      ],
+      "labels": [
+        "Positive",
+        "Negative",
+        "Neutral"
+      ]
+    }
+  ]
+}

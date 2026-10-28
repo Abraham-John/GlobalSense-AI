@@ -1,0 +1,6 @@
+2026/10/28-20:40:27.415 8788 Creating DB C:\Users\Administrator\Documents\antigravity\peaceful-carson\Multilingual-Sentiment-Analysis\scratch\cdp_profile\Default\IndexedDB\chrome-extension_pdffkfellgipmhklpdmokmckkkfcopbh_0.indexeddb.leveldb since it was missing.
+2026/10/28-20:40:27.444 8788 Reusing MANIFEST C:\Users\Administrator\Documents\antigravity\peaceful-carson\Multilingual-Sentiment-Analysis\scratch\cdp_profile\Default\IndexedDB\chrome-extension_pdffkfellgipmhklpdmokmckkkfcopbh_0.indexeddb.leveldb/MANIFEST-000001
+2026/10/28-20:40:27.474 3d08 Level-0 table #5: started
+2026/10/28-20:40:27.496 3d08 Level-0 table #5: 639 bytes OK
+2026/10/28-20:40:27.507 3d08 Delete type=0 #3
+2026/10/28-20:40:27.508 3d08 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)

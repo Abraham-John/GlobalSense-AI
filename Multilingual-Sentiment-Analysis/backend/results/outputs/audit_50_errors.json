@@ -1,0 +1,652 @@
+[
+  {
+    "idx": 4,
+    "lang": "ar",
+    "text": "حسب ملامحها احسها تحرض زوجها على امه و اخوانه و تحب الفلوس و تقوله قسم الورث و تغار من اي وحده حياتها حلوه",
+    "true": "Negative",
+    "pred": "Positive",
+    "conf": 0.4088,
+    "probs": {
+      "Positive": 0.409,
+      "Negative": 0.208,
+      "Neutral": 0.383
+    }
+  },
+  {
+    "idx": 9,
+    "lang": "fr",
+    "text": "Se vide seule Ne garde pas la charge. À chaque fois que je dois utiliser ma visseuse je suis obliger de recharger la batterie qui s’est vidée seule!",
+    "true": "Neutral",
+    "pred": "Negative",
+    "conf": 0.903,
+    "probs": {
+      "Positive": 0.036,
+      "Negative": 0.903,
+      "Neutral": 0.061
+    }
+  },
+  {
+    "idx": 14,
+    "lang": "de",
+    "text": "Besser als garnichts Entgegen der Beschreibung kann die Wetterstation nicht aufgehängt werden. Darüber hinaus sind die Infos auf dem Display, also Temperaturen ",
+    "true": "Negative",
+    "pred": "Neutral",
+    "conf": 0.7307,
+    "probs": {
+      "Positive": 0.045,
+      "Negative": 0.224,
+      "Neutral": 0.731
+    }
+  },
+  {
+    "idx": 15,
+    "lang": "es",
+    "text": "Carece de doble billetera Quizás falte otro departamento billetera",
+    "true": "Neutral",
+    "pred": "Negative",
+    "conf": 0.5409,
+    "probs": {
+      "Positive": 0.023,
+      "Negative": 0.541,
+      "Neutral": 0.437
+    }
+  },
+  {
+    "idx": 17,
+    "lang": "ja",
+    "text": "子どもに怒りというか、注意のつもりでしたが、それすら疲れてしまい、購入。理論はわかりましたが、経験談に専門家が答えていくスタイルで、親の方が悪い的な切り返しが冷たく感じる１冊。 私は最後まで読めませんでした。",
+    "true": "Neutral",
+    "pred": "Negative",
+    "conf": 0.9201,
+    "probs": {
+      "Positive": 0.018,
+      "Negative": 0.92,
+      "Neutral": 0.062
+    }
+  },
+  {
+    "idx": 22,
+    "lang": "hi",
+    "text": "यह तब हुआ जब मैं 6 साल का था, यह पूरी तरह से समझना असंभव था कि जब हम सभी ने स्कूल में खबर सुनी तो क्या हो रहा था। मुझे खुशी है कि इस तरह के वृत्तचित्र हैं ताकि ",
+    "true": "Positive",
+    "pred": "Negative",
+    "conf": 0.4977,
+    "probs": {
+      "Positive": 0.264,
+      "Negative": 0.498,
+      "Neutral": 0.238
+    }
+  },
+  {
+    "idx": 27,
+    "lang": "hi-Latn",
+    "text": "Elvish bhai ek genuine question hai jab raja ko shraap tha ki 7 pidhi tak santan nahi hogi toh satvi pidhi tak baat phochegi kaise 😂",
+    "true": "Neutral",
+    "pred": "Negative",
+    "conf": 0.381,
+    "probs": {
+      "Positive": 0.296,
+      "Negative": 0.381,
+      "Neutral": 0.323
+    }
+  },
+  {
+    "idx": 33,
+    "lang": "it",
+    "text": "Per fare un Paese migliore CI VUOLE UNA SCUOLA MIGLIORE! #ForzaPlinio #ilfuturosiamonoi #labuonascuolasiamonoi... http",
+    "true": "Negative",
+    "pred": "Positive",
+    "conf": 0.7013,
+    "probs": {
+      "Positive": 0.701,
+      "Negative": 0.091,
+      "Neutral": 0.208
+    }
+  },
+  {
+    "idx": 37,
+    "lang": "hi",
+    "text": "सब कुछ भूल जाओ मुझे नहीं पता कि आप मेरी यादृच्छिक सूची में कैसे आए लेकिन आपने मेरा दिल चुरा लिया",
+    "true": "Positive",
+    "pred": "Negative",
+    "conf": 0.521,
+    "probs": {
+      "Positive": 0.196,
+      "Negative": 0.521,
+      "Neutral": 0.283
+    }
+  },
+  {
+    "idx": 43,
+    "lang": "es",
+    "text": "@user Uno aprende que el mejor momento de crear bonitos recuerdos es el presente, el pasado ya fue, te toca elegir lo que va a ser",
+    "true": "Positive",
+    "pred": "Neutral",
+    "conf": 0.5134,
+    "probs": {
+      "Positive": 0.454,
+      "Negative": 0.032,
+      "Neutral": 0.513
+    }
+  },
+  {
+    "idx": 46,
+    "lang": "ar",
+    "text": "مرضي. موقع الفندق مناسب وقريب من مول الصيرفيطقم الاستقبال بشوش ومتعاون. الشقة الغرفتان ضيقة جدا وحمام واحد والدهان متساقط ولاتناسب أسرة ولاالمكتوب عنها على المو",
+    "true": "Neutral",
+    "pred": "Negative",
+    "conf": 0.8077,
+    "probs": {
+      "Positive": 0.042,
+      "Negative": 0.808,
+      "Neutral": 0.151
+    }
+  },
+  {
+    "idx": 47,
+    "lang": "pt",
+    "text": "Não posso falar nada sobre o produto pois comprei e nunca chegou!",
+    "true": "Negative",
+    "pred": "Neutral",
+    "conf": 0.6441,
+    "probs": {
+      "Positive": 0.025,
+      "Negative": 0.331,
+      "Neutral": 0.644
+    }
+  },
+  {
+    "idx": 49,
+    "lang": "it",
+    "text": "#rt seguimi e ti seguo e ti aggiungo alla mia lista aumenta followers c:",
+    "true": "Positive",
+    "pred": "Neutral",
+    "conf": 0.5773,
+    "probs": {
+      "Positive": 0.391,
+      "Negative": 0.032,
+      "Neutral": 0.577
+    }
+  },
+  {
+    "idx": 52,
+    "lang": "fr",
+    "text": "Attention Ne fonctionne pas sur ma tablette pourtant indiquée en référence sur ce produit.",
+    "true": "Neutral",
+    "pred": "Negative",
+    "conf": 0.6634,
+    "probs": {
+      "Positive": 0.036,
+      "Negative": 0.663,
+      "Neutral": 0.301
+    }
+  },
+  {
+    "idx": 53,
+    "lang": "hi-Latn",
+    "text": "Bache k paao paalne se bahir aa gy ha",
+    "true": "Neutral",
+    "pred": "Negative",
+    "conf": 0.3766,
+    "probs": {
+      "Positive": 0.318,
+      "Negative": 0.377,
+      "Neutral": 0.305
+    }
+  },
+  {
+    "idx": 54,
+    "lang": "pt",
+    "text": "gostei do produto, só demorou muito entrega comprei dia 12/12 foi entregue dia 08/01 isso não e legal.",
+    "true": "Neutral",
+    "pred": "Negative",
+    "conf": 0.8405,
+    "probs": {
+      "Positive": 0.025,
+      "Negative": 0.841,
+      "Neutral": 0.134
+    }
+  },
+  {
+    "idx": 55,
+    "lang": "it",
+    "text": "Bossi: «Il governo Monti fa schifo, sono improvvisati». Il trota invece, e Calderoli, mirabili statisti.",
+    "true": "Positive",
+    "pred": "Negative",
+    "conf": 0.9658,
+    "probs": {
+      "Positive": 0.015,
+      "Negative": 0.966,
+      "Neutral": 0.019
+    }
+  },
+  {
+    "idx": 56,
+    "lang": "ar",
+    "text": "مكة بدات تتطور😂💔بس الله يخليكم مانبا نمسك سرا ساعه عشان ناكل",
+    "true": "Positive",
+    "pred": "Neutral",
+    "conf": 0.3547,
+    "probs": {
+      "Positive": 0.309,
+      "Negative": 0.337,
+      "Neutral": 0.355
+    }
+  },
+  {
+    "idx": 57,
+    "lang": "ar",
+    "text": "انتهيت البارحة من قراءة أول عمل أقرأه للروائي الليبي البارز إبراهيم الكوني، ووفقا لتوصية الأصدقاء فقد آثرت التعرف إلى هذا الكاتب عن طريقة رباعية الخسوف . أجلت ق",
+    "true": "Neutral",
+    "pred": "Negative",
+    "conf": 0.3774,
+    "probs": {
+      "Positive": 0.301,
+      "Negative": 0.377,
+      "Neutral": 0.321
+    }
+  },
+  {
+    "idx": 60,
+    "lang": "fr",
+    "text": "Bien mais déçu de l'emballage Les boules sont pareil que sur la photo et elle sentent très bon, ma fille les adore. Par contre je suis decu de l'emballage il ét",
+    "true": "Positive",
+    "pred": "Negative",
+    "conf": 0.4965,
+    "probs": {
+      "Positive": 0.415,
+      "Negative": 0.497,
+      "Neutral": 0.089
+    }
+  },
+  {
+    "idx": 64,
+    "lang": "ja",
+    "text": "メガネをしているのでヘッドホンだと少し耳が痛くなるのでワイヤレスを購入してみました。とても軽くいい落ちて来ないので満足でしたが数回使用しただけでバッテリーがダメになってしまいました。便利で快適だったのですがハズレを引いてしまったようですね。とても残念でした",
+    "true": "Neutral",
+    "pred": "Negative",
+    "conf": 0.9104,
+    "probs": {
+      "Positive": 0.032,
+      "Negative": 0.91,
+      "Neutral": 0.058
+    }
+  },
+  {
+    "idx": 66,
+    "lang": "hi",
+    "text": "एक भ्रामक शीर्षक की तरह लग रहा था-वह विषय वीडियो का 10 सेकंड था।",
+    "true": "Negative",
+    "pred": "Neutral",
+    "conf": 0.5403,
+    "probs": {
+      "Positive": 0.158,
+      "Negative": 0.302,
+      "Neutral": 0.54
+    }
+  },
+  {
+    "idx": 68,
+    "lang": "hi-Latn",
+    "text": "Isliye mai kavi bhi single person review pe believe nhi krta, sbse Best public review usme honest review ka pata chalta hai.",
+    "true": "Neutral",
+    "pred": "Negative",
+    "conf": 0.3752,
+    "probs": {
+      "Positive": 0.296,
+      "Negative": 0.375,
+      "Neutral": 0.329
+    }
+  },
+  {
+    "idx": 76,
+    "lang": "ja",
+    "text": "マジックテープの劣化 マジックテープの劣化が早いような気がします。",
+    "true": "Negative",
+    "pred": "Neutral",
+    "conf": 0.4364,
+    "probs": {
+      "Positive": 0.135,
+      "Negative": 0.429,
+      "Neutral": 0.436
+    }
+  },
+  {
+    "idx": 77,
+    "lang": "ja",
+    "text": "良くも悪くもクラシック 赤いグリップはワンポイントで良いのですが、この塗装のせいでグリップが滑ります💦作りもそれなりですが数千円のナイフなので良しとしましょう。このナイフに何万も出して買おうと考えている人ははやめときましょうw",
+    "true": "Positive",
+    "pred": "Negative",
+    "conf": 0.8175,
+    "probs": {
+      "Positive": 0.069,
+      "Negative": 0.817,
+      "Neutral": 0.114
+    }
+  },
+  {
+    "idx": 82,
+    "lang": "hi-Latn",
+    "text": "Dosto taiyar ho jao 💥💥💥",
+    "true": "Positive",
+    "pred": "Negative",
+    "conf": 0.3795,
+    "probs": {
+      "Positive": 0.304,
+      "Negative": 0.379,
+      "Neutral": 0.317
+    }
+  },
+  {
+    "idx": 85,
+    "lang": "hi-Latn",
+    "text": "Lekin 2026 mei duniya khatam hei na 😂",
+    "true": "Negative",
+    "pred": "Neutral",
+    "conf": 0.3664,
+    "probs": {
+      "Positive": 0.27,
+      "Negative": 0.364,
+      "Neutral": 0.366
+    }
+  },
+  {
+    "idx": 87,
+    "lang": "fr",
+    "text": "Chaîne on l air de bonne qualité Le guide n est pas adapté à toute les marques cité dans le descriptif petite modification à effectuer",
+    "true": "Neutral",
+    "pred": "Negative",
+    "conf": 0.3644,
+    "probs": {
+      "Positive": 0.346,
+      "Negative": 0.364,
+      "Neutral": 0.289
+    }
+  },
+  {
+    "idx": 89,
+    "lang": "es",
+    "text": "BIEN El envío rápido, lo que no me ha gustado que las ruedas están torcidas",
+    "true": "Neutral",
+    "pred": "Negative",
+    "conf": 0.8519,
+    "probs": {
+      "Positive": 0.031,
+      "Negative": 0.852,
+      "Neutral": 0.117
+    }
+  },
+  {
+    "idx": 91,
+    "lang": "en",
+    "text": "The food is just okay and service need improve",
+    "true": "Neutral",
+    "pred": "Positive",
+    "conf": 0.5,
+    "probs": {
+      "Positive": 0.5,
+      "Negative": 0.205,
+      "Neutral": 0.295
+    }
+  },
+  {
+    "idx": 92,
+    "lang": "fr",
+    "text": "Sans plus. Cravate basique, bon rapport qualité prix. Cependant la couleur est moins vive en réalité. C'est bien pour un événement où il faut une cravate occasi",
+    "true": "Neutral",
+    "pred": "Positive",
+    "conf": 0.5782,
+    "probs": {
+      "Positive": 0.578,
+      "Negative": 0.199,
+      "Neutral": 0.223
+    }
+  },
+  {
+    "idx": 96,
+    "lang": "es",
+    "text": "No me ofrece demasiada confianza No me gusta las pocas especificaciones del producto y las etiquetas arrancadas, eso no me ha gustado.",
+    "true": "Neutral",
+    "pred": "Negative",
+    "conf": 0.9479,
+    "probs": {
+      "Positive": 0.011,
+      "Negative": 0.948,
+      "Neutral": 0.041
+    }
+  },
+  {
+    "idx": 101,
+    "lang": "ar",
+    "text": "كثير من النساء واغلبهم كهذة الفتاة. يضيع عندها معنى الحب. الحب سامي، الحب حرية، سعادة، طاقة ايجابيه، شغف وعاطفة وسمو. هذا ليس حبا. الضعف والخوف من المجهول وقلة ",
+    "true": "Neutral",
+    "pred": "Negative",
+    "conf": 0.7486,
+    "probs": {
+      "Positive": 0.082,
+      "Negative": 0.749,
+      "Neutral": 0.17
+    }
+  },
+  {
+    "idx": 103,
+    "lang": "en",
+    "text": "Eşinden gördüğü şiddet nedeniyle Türkiye de ilk kez panik düğmesi kendisine verildi.",
+    "true": "Neutral",
+    "pred": "Negative",
+    "conf": 0.7165,
+    "probs": {
+      "Positive": 0.052,
+      "Negative": 0.716,
+      "Neutral": 0.231
+    }
+  },
+  {
+    "idx": 104,
+    "lang": "hi",
+    "text": "लोल टर्की फिनलैंड और स्वीडन को अवरुद्ध करता है। कोई अनाज नहीं, उत्तर अफ्रीका आगे बढ़ रहा है। टर्की में, शुभ कामना टर्की।",
+    "true": "Negative",
+    "pred": "Positive",
+    "conf": 0.3914,
+    "probs": {
+      "Positive": 0.391,
+      "Negative": 0.323,
+      "Neutral": 0.286
+    }
+  },
+  {
+    "idx": 106,
+    "lang": "ar",
+    "text": "مرضي. . المكان جيد لكنه لايحظى بخدمة وإثاث مناسب ، الإدارة بحاجة لإعادة نظر",
+    "true": "Neutral",
+    "pred": "Negative",
+    "conf": 0.8716,
+    "probs": {
+      "Positive": 0.029,
+      "Negative": 0.872,
+      "Neutral": 0.099
+    }
+  },
+  {
+    "idx": 113,
+    "lang": "hi-Latn",
+    "text": "3:12 tere Kehne se Ghanta farak padta hai tere kehne se teri Biwi,Beti aur beta ko bhi ghanta farak padta hai😂Teri Biwi,Beti aur Bete ko bhi pata hai ki tu lukh",
+    "true": "Negative",
+    "pred": "Positive",
+    "conf": 0.3403,
+    "probs": {
+      "Positive": 0.34,
+      "Negative": 0.324,
+      "Neutral": 0.335
+    }
+  },
+  {
+    "idx": 116,
+    "lang": "de",
+    "text": "Halten nicht Ales schön aber die fallen ab von der Wand...nach 2 Wochen sind nur noch ein paar an der Wand geblieben...",
+    "true": "Neutral",
+    "pred": "Negative",
+    "conf": 0.5828,
+    "probs": {
+      "Positive": 0.038,
+      "Negative": 0.583,
+      "Neutral": 0.379
+    }
+  },
+  {
+    "idx": 117,
+    "lang": "pt",
+    "text": "gostei muito do produto, porém achei de pequeno tamanho... tamanho de um cafézinho mesmo... do mais é de excelente qualidade.",
+    "true": "Neutral",
+    "pred": "Positive",
+    "conf": 0.6662,
+    "probs": {
+      "Positive": 0.666,
+      "Negative": 0.083,
+      "Neutral": 0.25
+    }
+  },
+  {
+    "idx": 119,
+    "lang": "ar",
+    "text": "ما بحب اللحظة اللي بكتشف فيها إنو الحاجة اللي ضيّعت وقت طويل من عُمري في الجري وراها طلعِت ما بتستاهل كُل وجع القلب هاد🤦🏻♀️",
+    "true": "Neutral",
+    "pred": "Negative",
+    "conf": 0.389,
+    "probs": {
+      "Positive": 0.351,
+      "Negative": 0.389,
+      "Neutral": 0.26
+    }
+  },
+  {
+    "idx": 127,
+    "lang": "pt",
+    "text": "As lojas Americanas não entrega no prazo dado. Marca uma data e não chega, e depois vc. não consegue falar, falta de respeito.",
+    "true": "Neutral",
+    "pred": "Negative",
+    "conf": 0.8995,
+    "probs": {
+      "Positive": 0.012,
+      "Negative": 0.899,
+      "Neutral": 0.089
+    }
+  },
+  {
+    "idx": 128,
+    "lang": "en",
+    "text": "follorwers",
+    "true": "Positive",
+    "pred": "Neutral",
+    "conf": 0.4869,
+    "probs": {
+      "Positive": 0.251,
+      "Negative": 0.262,
+      "Neutral": 0.487
+    }
+  },
+  {
+    "idx": 130,
+    "lang": "hi-Latn",
+    "text": "Bezzati karva Di ka kya matlab hota hai",
+    "true": "Negative",
+    "pred": "Neutral",
+    "conf": 0.3588,
+    "probs": {
+      "Positive": 0.285,
+      "Negative": 0.356,
+      "Neutral": 0.359
+    }
+  },
+  {
+    "idx": 136,
+    "lang": "ja",
+    "text": "使用時間がわからない、??????????????????????????????",
+    "true": "Neutral",
+    "pred": "Negative",
+    "conf": 0.604,
+    "probs": {
+      "Positive": 0.048,
+      "Negative": 0.604,
+      "Neutral": 0.348
+    }
+  },
+  {
+    "idx": 139,
+    "lang": "it",
+    "text": "\"In Finlandia esiste discriminazione punitiva: se una scuola rimane indietro si insiste e si finanzia di più\" #labuonascuola #invalsi",
+    "true": "Neutral",
+    "pred": "Negative",
+    "conf": 0.8377,
+    "probs": {
+      "Positive": 0.034,
+      "Negative": 0.838,
+      "Neutral": 0.128
+    }
+  },
+  {
+    "idx": 145,
+    "lang": "fr",
+    "text": "Essuie-glace ... Toujours pas reçu, heureusement qu'il ne s'agit pas de celui de l'essuie-glace avant !... Merci de me dire si je dois le recevoir un jour, et q",
+    "true": "Negative",
+    "pred": "Positive",
+    "conf": 0.52,
+    "probs": {
+      "Positive": 0.52,
+      "Negative": 0.206,
+      "Neutral": 0.274
+    }
+  },
+  {
+    "idx": 146,
+    "lang": "de",
+    "text": "Ware O.K. Zuerst: Versand blitzartig, dafür mal ein großes Lob. Leider entsprachen die Kerzen nicht der Vorstellung des Beschenkten. Die Kerzen sind viel blasse",
+    "true": "Positive",
+    "pred": "Negative",
+    "conf": 0.7403,
+    "probs": {
+      "Positive": 0.106,
+      "Negative": 0.74,
+      "Neutral": 0.153
+    }
+  },
+  {
+    "idx": 149,
+    "lang": "fr",
+    "text": "Produit moyen Fonctionne bien ne tient pas dans le temps dommage... Livré dans les délais RAS Bon produit",
+    "true": "Neutral",
+    "pred": "Negative",
+    "conf": 0.9012,
+    "probs": {
+      "Positive": 0.046,
+      "Negative": 0.901,
+      "Neutral": 0.053
+    }
+  },
+  {
+    "idx": 151,
+    "lang": "hi",
+    "text": "पूरा कृषि व्यापक है। मैं यह नहीं कह रहा हूं कि यह सब गलत है लेकिन यह खुले रहने की कोशिश नहीं कर रहा है। यह सब \"यहाँ एक तथ्य है, यहाँ एक और तथ्य है, यहाँ एक सांख",
+    "true": "Negative",
+    "pred": "Neutral",
+    "conf": 0.442,
+    "probs": {
+      "Positive": 0.133,
+      "Negative": 0.425,
+      "Neutral": 0.442
+    }
+  },
+  {
+    "idx": 161,
+    "lang": "fr",
+    "text": "Vendu avec un photophore aurait été plus élégant. ... J'ai malheureusement trouvé moins cher en boutique après mon achat sur Amazon. .. dommage pour moi ...",
+    "true": "Neutral",
+    "pred": "Negative",
+    "conf": 0.9431,
+    "probs": {
+      "Positive": 0.027,
+      "Negative": 0.943,
+      "Neutral": 0.03
+    }
+  }
+]

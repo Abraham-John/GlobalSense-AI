@@ -1,0 +1,114 @@
+{
+  "model_name": "Baseline A (Word TF-IDF + Logistic Regression)",
+  "overall": {
+    "accuracy": 0.586,
+    "macro_f1": 0.5864,
+    "weighted_f1": 0.5876,
+    "precision_macro": 0.5923,
+    "recall_macro": 0.585,
+    "latency_ms_per_sample": 0.037,
+    "test_sample_count": 2952,
+    "train_time_sec": 1.85
+  },
+  "per_class_f1": {
+    "Positive": 0.6113,
+    "Negative": 0.6136,
+    "Neutral": 0.5345
+  },
+  "confusion_matrix": {
+    "labels": [
+      "Positive",
+      "Negative",
+      "Neutral"
+    ],
+    "matrix": [
+      [
+        548,
+        177,
+        249
+      ],
+      [
+        113,
+        647,
+        278
+      ],
+      [
+        158,
+        247,
+        535
+      ]
+    ]
+  },
+  "per_language": {
+    "en": {
+      "samples": 270,
+      "accuracy": 0.6222,
+      "macro_f1": 0.6206,
+      "precision_macro": 0.6299,
+      "recall_macro": 0.6222
+    },
+    "hi": {
+      "samples": 315,
+      "accuracy": 0.4921,
+      "macro_f1": 0.4925,
+      "precision_macro": 0.4932,
+      "recall_macro": 0.4921
+    },
+    "hi-Latn": {
+      "samples": 477,
+      "accuracy": 0.6373,
+      "macro_f1": 0.6055,
+      "precision_macro": 0.6403,
+      "recall_macro": 0.5955
+    },
+    "fr": {
+      "samples": 270,
+      "accuracy": 0.6481,
+      "macro_f1": 0.6467,
+      "precision_macro": 0.6458,
+      "recall_macro": 0.6481
+    },
+    "es": {
+      "samples": 270,
+      "accuracy": 0.6259,
+      "macro_f1": 0.6268,
+      "precision_macro": 0.628,
+      "recall_macro": 0.6259
+    },
+    "de": {
+      "samples": 270,
+      "accuracy": 0.6259,
+      "macro_f1": 0.6274,
+      "precision_macro": 0.63,
+      "recall_macro": 0.6259
+    },
+    "it": {
+      "samples": 270,
+      "accuracy": 0.5815,
+      "macro_f1": 0.5812,
+      "precision_macro": 0.5812,
+      "recall_macro": 0.5815
+    },
+    "pt": {
+      "samples": 270,
+      "accuracy": 0.6333,
+      "macro_f1": 0.6291,
+      "precision_macro": 0.6321,
+      "recall_macro": 0.6333
+    },
+    "ar": {
+      "samples": 270,
+      "accuracy": 0.5667,
+      "macro_f1": 0.5658,
+      "precision_macro": 0.5699,
+      "recall_macro": 0.5667
+    },
+    "ja": {
+      "samples": 270,
+      "accuracy": 0.4037,
+      "macro_f1": 0.3235,
+      "precision_macro": 0.5546,
+      "recall_macro": 0.4037
+    }
+  }
+}

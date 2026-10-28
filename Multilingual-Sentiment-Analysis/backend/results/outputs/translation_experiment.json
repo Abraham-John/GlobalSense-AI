@@ -1,0 +1,155 @@
+{
+  "metadata": {
+    "experiment": "Translate-Test Pipeline vs Direct XLM-R Multilingual Inference",
+    "eval_model": "pretrained_xlmr (cardiffnlp/twitter-xlm-roberta-base-sentiment)",
+    "translator_family": "Helsinki-NLP/opus-mt",
+    "subset_size_per_language": 50,
+    "total_samples": 400,
+    "languages_evaluated": [
+      "fr",
+      "es",
+      "de",
+      "it",
+      "pt",
+      "ar",
+      "ja",
+      "hi"
+    ],
+    "unsupported_languages": [
+      "hi-Latn (Hinglish: no Romanized translation model)",
+      "en (Already English)"
+    ],
+    "seed": 42,
+    "timestamp": "2026-10-28T16:48:31Z",
+    "status": "completed_subset",
+    "full_test_status": "NOT EXECUTED: full test set run (evaluated on N=50/lang subset due to CPU inference time constraints). The sample size is small and difference in F1 is within noise margin."
+  },
+  "overall": {
+    "samples": 400,
+    "original": {
+      "accuracy": 0.515,
+      "macro_f1": 0.3979
+    },
+    "translated": {
+      "accuracy": 0.4825,
+      "macro_f1": 0.3932
+    },
+    "delta_accuracy": -0.0325,
+    "delta_macro_f1": -0.0047,
+    "mean_translation_latency_ms": 1504.48
+  },
+  "per_language": {
+    "fr": {
+      "samples": 50,
+      "original": {
+        "accuracy": 0.58,
+        "macro_f1": 0.3738
+      },
+      "translated": {
+        "accuracy": 0.58,
+        "macro_f1": 0.4306
+      },
+      "delta_accuracy": 0.0,
+      "delta_macro_f1": 0.0567,
+      "mean_translation_latency_ms": 1440.49
+    },
+    "es": {
+      "samples": 50,
+      "original": {
+        "accuracy": 0.72,
+        "macro_f1": 0.485
+      },
+      "translated": {
+        "accuracy": 0.58,
+        "macro_f1": 0.4048
+      },
+      "delta_accuracy": -0.14,
+      "delta_macro_f1": -0.0802,
+      "mean_translation_latency_ms": 1520.67
+    },
+    "de": {
+      "samples": 50,
+      "original": {
+        "accuracy": 0.6,
+        "macro_f1": 0.3864
+      },
+      "translated": {
+        "accuracy": 0.52,
+        "macro_f1": 0.3598
+      },
+      "delta_accuracy": -0.08,
+      "delta_macro_f1": -0.0266,
+      "mean_translation_latency_ms": 1798.13
+    },
+    "it": {
+      "samples": 50,
+      "original": {
+        "accuracy": 0.66,
+        "macro_f1": 0.5423
+      },
+      "translated": {
+        "accuracy": 0.52,
+        "macro_f1": 0.4489
+      },
+      "delta_accuracy": -0.14,
+      "delta_macro_f1": -0.0934,
+      "mean_translation_latency_ms": 924.91
+    },
+    "pt": {
+      "samples": 50,
+      "original": {
+        "accuracy": 0.48,
+        "macro_f1": 0.3726
+      },
+      "translated": {
+        "accuracy": 0.52,
+        "macro_f1": 0.411
+      },
+      "delta_accuracy": 0.04,
+      "delta_macro_f1": 0.0383,
+      "mean_translation_latency_ms": 1554.76
+    },
+    "ar": {
+      "samples": 50,
+      "original": {
+        "accuracy": 0.3,
+        "macro_f1": 0.2911
+      },
+      "translated": {
+        "accuracy": 0.36,
+        "macro_f1": 0.3313
+      },
+      "delta_accuracy": 0.06,
+      "delta_macro_f1": 0.0402,
+      "mean_translation_latency_ms": 2151.22
+    },
+    "ja": {
+      "samples": 50,
+      "original": {
+        "accuracy": 0.5,
+        "macro_f1": 0.3524
+      },
+      "translated": {
+        "accuracy": 0.36,
+        "macro_f1": 0.2967
+      },
+      "delta_accuracy": -0.14,
+      "delta_macro_f1": -0.0557,
+      "mean_translation_latency_ms": 1892.03
+    },
+    "hi": {
+      "samples": 50,
+      "original": {
+        "accuracy": 0.28,
+        "macro_f1": 0.2858
+      },
+      "translated": {
+        "accuracy": 0.42,
+        "macro_f1": 0.3675
+      },
+      "delta_accuracy": 0.14,
+      "delta_macro_f1": 0.0817,
+      "mean_translation_latency_ms": 753.61
+    }
+  }
+}

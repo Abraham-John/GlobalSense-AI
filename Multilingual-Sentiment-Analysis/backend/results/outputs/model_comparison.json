@@ -1,0 +1,1144 @@
+{
+  "baseline_a": {
+    "key": "baseline_a",
+    "name": "Baseline A (Word TF-IDF + Logistic Regression)",
+    "type": "classical_ml",
+    "origin": "trained_locally",
+    "origin_label": "Trained Locally (Classical Baseline)",
+    "overall": {
+      "accuracy": 0.586,
+      "macro_f1": 0.5864,
+      "weighted_f1": 0.5876,
+      "precision_macro": 0.5923,
+      "recall_macro": 0.585,
+      "latency_ms_per_sample": 0.034,
+      "ece": 0.0536
+    },
+    "per_language": {
+      "en": {
+        "samples": 270,
+        "accuracy": 0.6222,
+        "macro_f1": 0.6206
+      },
+      "hi": {
+        "samples": 315,
+        "accuracy": 0.4921,
+        "macro_f1": 0.4925
+      },
+      "hi-Latn": {
+        "samples": 477,
+        "accuracy": 0.6373,
+        "macro_f1": 0.6055
+      },
+      "fr": {
+        "samples": 270,
+        "accuracy": 0.6481,
+        "macro_f1": 0.6467
+      },
+      "es": {
+        "samples": 270,
+        "accuracy": 0.6259,
+        "macro_f1": 0.6268
+      },
+      "de": {
+        "samples": 270,
+        "accuracy": 0.6259,
+        "macro_f1": 0.6274
+      },
+      "it": {
+        "samples": 270,
+        "accuracy": 0.5815,
+        "macro_f1": 0.5812
+      },
+      "pt": {
+        "samples": 270,
+        "accuracy": 0.6333,
+        "macro_f1": 0.6291
+      },
+      "ar": {
+        "samples": 270,
+        "accuracy": 0.5667,
+        "macro_f1": 0.5658
+      },
+      "ja": {
+        "samples": 270,
+        "accuracy": 0.4037,
+        "macro_f1": 0.3235
+      }
+    },
+    "confusion_matrix": {
+      "labels": [
+        "Positive",
+        "Negative",
+        "Neutral"
+      ],
+      "matrix": [
+        [
+          548,
+          177,
+          249
+        ],
+        [
+          113,
+          647,
+          278
+        ],
+        [
+          158,
+          247,
+          535
+        ]
+      ]
+    },
+    "calibration": {
+      "ece": 0.0536,
+      "num_bins": 10,
+      "bins": [
+        {
+          "bin_index": 0,
+          "range": [
+            0.0,
+            0.1
+          ],
+          "samples": 0,
+          "accuracy": 0.0,
+          "confidence": 0.05,
+          "calibration_gap": 0.0
+        },
+        {
+          "bin_index": 1,
+          "range": [
+            0.1,
+            0.2
+          ],
+          "samples": 0,
+          "accuracy": 0.0,
+          "confidence": 0.15,
+          "calibration_gap": 0.0
+        },
+        {
+          "bin_index": 2,
+          "range": [
+            0.2,
+            0.3
+          ],
+          "samples": 0,
+          "accuracy": 0.0,
+          "confidence": 0.25,
+          "calibration_gap": 0.0
+        },
+        {
+          "bin_index": 3,
+          "range": [
+            0.3,
+            0.4
+          ],
+          "samples": 463,
+          "accuracy": 0.3521,
+          "confidence": 0.3709,
+          "calibration_gap": 0.0188
+        },
+        {
+          "bin_index": 4,
+          "range": [
+            0.4,
+            0.5
+          ],
+          "samples": 946,
+          "accuracy": 0.4672,
+          "confidence": 0.4495,
+          "calibration_gap": 0.0177
+        },
+        {
+          "bin_index": 5,
+          "range": [
+            0.5,
+            0.6
+          ],
+          "samples": 678,
+          "accuracy": 0.618,
+          "confidence": 0.547,
+          "calibration_gap": 0.071
+        },
+        {
+          "bin_index": 6,
+          "range": [
+            0.6,
+            0.7
+          ],
+          "samples": 418,
+          "accuracy": 0.756,
+          "confidence": 0.6461,
+          "calibration_gap": 0.1099
+        },
+        {
+          "bin_index": 7,
+          "range": [
+            0.7,
+            0.8
+          ],
+          "samples": 274,
+          "accuracy": 0.8248,
+          "confidence": 0.7452,
+          "calibration_gap": 0.0797
+        },
+        {
+          "bin_index": 8,
+          "range": [
+            0.8,
+            0.9
+          ],
+          "samples": 141,
+          "accuracy": 0.9574,
+          "confidence": 0.8439,
+          "calibration_gap": 0.1136
+        },
+        {
+          "bin_index": 9,
+          "range": [
+            0.9,
+            1.0
+          ],
+          "samples": 32,
+          "accuracy": 0.9062,
+          "confidence": 0.9298,
+          "calibration_gap": 0.0235
+        }
+      ]
+    }
+  },
+  "baseline_b": {
+    "key": "baseline_b",
+    "name": "Baseline B (Word + Char n-gram TF-IDF + Logistic Regression)",
+    "type": "classical_ml",
+    "origin": "trained_locally",
+    "origin_label": "Trained Locally on 10-Language Balanced Corpus",
+    "overall": {
+      "accuracy": 0.626,
+      "macro_f1": 0.6245,
+      "weighted_f1": 0.6259,
+      "precision_macro": 0.6259,
+      "recall_macro": 0.624,
+      "latency_ms_per_sample": 0.345,
+      "ece": 0.0192
+    },
+    "per_language": {
+      "en": {
+        "samples": 270,
+        "accuracy": 0.6519,
+        "macro_f1": 0.6517
+      },
+      "hi": {
+        "samples": 315,
+        "accuracy": 0.5619,
+        "macro_f1": 0.5625
+      },
+      "hi-Latn": {
+        "samples": 477,
+        "accuracy": 0.6771,
+        "macro_f1": 0.6496
+      },
+      "fr": {
+        "samples": 270,
+        "accuracy": 0.6556,
+        "macro_f1": 0.6544
+      },
+      "es": {
+        "samples": 270,
+        "accuracy": 0.6407,
+        "macro_f1": 0.6349
+      },
+      "de": {
+        "samples": 270,
+        "accuracy": 0.6074,
+        "macro_f1": 0.607
+      },
+      "it": {
+        "samples": 270,
+        "accuracy": 0.6222,
+        "macro_f1": 0.621
+      },
+      "pt": {
+        "samples": 270,
+        "accuracy": 0.637,
+        "macro_f1": 0.6338
+      },
+      "ar": {
+        "samples": 270,
+        "accuracy": 0.5889,
+        "macro_f1": 0.5895
+      },
+      "ja": {
+        "samples": 270,
+        "accuracy": 0.5889,
+        "macro_f1": 0.587
+      }
+    },
+    "confusion_matrix": {
+      "labels": [
+        "Positive",
+        "Negative",
+        "Neutral"
+      ],
+      "matrix": [
+        [
+          635,
+          159,
+          180
+        ],
+        [
+          109,
+          700,
+          229
+        ],
+        [
+          174,
+          253,
+          513
+        ]
+      ]
+    },
+    "calibration": {
+      "ece": 0.0192,
+      "num_bins": 10,
+      "bins": [
+        {
+          "bin_index": 0,
+          "range": [
+            0.0,
+            0.1
+          ],
+          "samples": 0,
+          "accuracy": 0.0,
+          "confidence": 0.05,
+          "calibration_gap": 0.0
+        },
+        {
+          "bin_index": 1,
+          "range": [
+            0.1,
+            0.2
+          ],
+          "samples": 0,
+          "accuracy": 0.0,
+          "confidence": 0.15,
+          "calibration_gap": 0.0
+        },
+        {
+          "bin_index": 2,
+          "range": [
+            0.2,
+            0.3
+          ],
+          "samples": 0,
+          "accuracy": 0.0,
+          "confidence": 0.25,
+          "calibration_gap": 0.0
+        },
+        {
+          "bin_index": 3,
+          "range": [
+            0.3,
+            0.4
+          ],
+          "samples": 129,
+          "accuracy": 0.3798,
+          "confidence": 0.3777,
+          "calibration_gap": 0.0022
+        },
+        {
+          "bin_index": 4,
+          "range": [
+            0.4,
+            0.5
+          ],
+          "samples": 593,
+          "accuracy": 0.4283,
+          "confidence": 0.4544,
+          "calibration_gap": 0.0261
+        },
+        {
+          "bin_index": 5,
+          "range": [
+            0.5,
+            0.6
+          ],
+          "samples": 701,
+          "accuracy": 0.5478,
+          "confidence": 0.5482,
+          "calibration_gap": 0.0004
+        },
+        {
+          "bin_index": 6,
+          "range": [
+            0.6,
+            0.7
+          ],
+          "samples": 534,
+          "accuracy": 0.6199,
+          "confidence": 0.6473,
+          "calibration_gap": 0.0275
+        },
+        {
+          "bin_index": 7,
+          "range": [
+            0.7,
+            0.8
+          ],
+          "samples": 444,
+          "accuracy": 0.7928,
+          "confidence": 0.7502,
+          "calibration_gap": 0.0426
+        },
+        {
+          "bin_index": 8,
+          "range": [
+            0.8,
+            0.9
+          ],
+          "samples": 356,
+          "accuracy": 0.8315,
+          "confidence": 0.8465,
+          "calibration_gap": 0.0151
+        },
+        {
+          "bin_index": 9,
+          "range": [
+            0.9,
+            1.0
+          ],
+          "samples": 195,
+          "accuracy": 0.9333,
+          "confidence": 0.9421,
+          "calibration_gap": 0.0087
+        }
+      ]
+    }
+  },
+  "bilstm": {
+    "key": "bilstm",
+    "name": "Deep Learning BiLSTM (Subword-Aware PyTorch)",
+    "type": "deep_learning_rnn",
+    "origin": "trained_locally",
+    "origin_label": "Trained Locally (2-Layer BiLSTM)",
+    "overall": {
+      "accuracy": 0.5806,
+      "macro_f1": 0.5768,
+      "weighted_f1": 0.5783,
+      "precision_macro": 0.5779,
+      "recall_macro": 0.5792,
+      "latency_ms_per_sample": 1.879,
+      "ece": 0.1337
+    },
+    "per_language": {
+      "en": {
+        "samples": 270,
+        "accuracy": 0.5481,
+        "macro_f1": 0.5478
+      },
+      "hi": {
+        "samples": 315,
+        "accuracy": 0.527,
+        "macro_f1": 0.5245
+      },
+      "hi-Latn": {
+        "samples": 477,
+        "accuracy": 0.6583,
+        "macro_f1": 0.6317
+      },
+      "fr": {
+        "samples": 270,
+        "accuracy": 0.5926,
+        "macro_f1": 0.5839
+      },
+      "es": {
+        "samples": 270,
+        "accuracy": 0.6037,
+        "macro_f1": 0.5985
+      },
+      "de": {
+        "samples": 270,
+        "accuracy": 0.6,
+        "macro_f1": 0.5947
+      },
+      "it": {
+        "samples": 270,
+        "accuracy": 0.5556,
+        "macro_f1": 0.5519
+      },
+      "pt": {
+        "samples": 270,
+        "accuracy": 0.6185,
+        "macro_f1": 0.6143
+      },
+      "ar": {
+        "samples": 270,
+        "accuracy": 0.4889,
+        "macro_f1": 0.4835
+      },
+      "ja": {
+        "samples": 270,
+        "accuracy": 0.563,
+        "macro_f1": 0.5578
+      }
+    },
+    "confusion_matrix": {
+      "labels": [
+        "Positive",
+        "Negative",
+        "Neutral"
+      ],
+      "matrix": [
+        [
+          657,
+          148,
+          169
+        ],
+        [
+          200,
+          612,
+          226
+        ],
+        [
+          267,
+          228,
+          445
+        ]
+      ]
+    },
+    "calibration": {
+      "ece": 0.1337,
+      "num_bins": 10,
+      "bins": [
+        {
+          "bin_index": 0,
+          "range": [
+            0.0,
+            0.1
+          ],
+          "samples": 0,
+          "accuracy": 0.0,
+          "confidence": 0.05,
+          "calibration_gap": 0.0
+        },
+        {
+          "bin_index": 1,
+          "range": [
+            0.1,
+            0.2
+          ],
+          "samples": 0,
+          "accuracy": 0.0,
+          "confidence": 0.15,
+          "calibration_gap": 0.0
+        },
+        {
+          "bin_index": 2,
+          "range": [
+            0.2,
+            0.3
+          ],
+          "samples": 0,
+          "accuracy": 0.0,
+          "confidence": 0.25,
+          "calibration_gap": 0.0
+        },
+        {
+          "bin_index": 3,
+          "range": [
+            0.3,
+            0.4
+          ],
+          "samples": 43,
+          "accuracy": 0.3256,
+          "confidence": 0.3794,
+          "calibration_gap": 0.0538
+        },
+        {
+          "bin_index": 4,
+          "range": [
+            0.4,
+            0.5
+          ],
+          "samples": 360,
+          "accuracy": 0.4139,
+          "confidence": 0.4593,
+          "calibration_gap": 0.0454
+        },
+        {
+          "bin_index": 5,
+          "range": [
+            0.5,
+            0.6
+          ],
+          "samples": 527,
+          "accuracy": 0.4288,
+          "confidence": 0.5499,
+          "calibration_gap": 0.1211
+        },
+        {
+          "bin_index": 6,
+          "range": [
+            0.6,
+            0.7
+          ],
+          "samples": 511,
+          "accuracy": 0.5362,
+          "confidence": 0.6501,
+          "calibration_gap": 0.1139
+        },
+        {
+          "bin_index": 7,
+          "range": [
+            0.7,
+            0.8
+          ],
+          "samples": 444,
+          "accuracy": 0.5315,
+          "confidence": 0.747,
+          "calibration_gap": 0.2154
+        },
+        {
+          "bin_index": 8,
+          "range": [
+            0.8,
+            0.9
+          ],
+          "samples": 454,
+          "accuracy": 0.6652,
+          "confidence": 0.8505,
+          "calibration_gap": 0.1853
+        },
+        {
+          "bin_index": 9,
+          "range": [
+            0.9,
+            1.0
+          ],
+          "samples": 613,
+          "accuracy": 0.8369,
+          "confidence": 0.9578,
+          "calibration_gap": 0.1209
+        }
+      ]
+    }
+  },
+  "pretrained_xlmr": {
+    "key": "pretrained_xlmr",
+    "name": "Pretrained XLM-RoBERTa (CardiffNLP)",
+    "type": "transformer",
+    "origin": "pretrained",
+    "origin_label": "Pretrained Multilingual Checkpoint (CardiffNLP - Not Trained by this Project)",
+    "overall": {
+      "accuracy": 0.6325,
+      "macro_f1": 0.6096,
+      "weighted_f1": 0.6135,
+      "precision_macro": 0.6254,
+      "recall_macro": 0.6256,
+      "latency_ms_per_sample": 157.156,
+      "ece": 0.0838,
+      "uncertainty_threshold": 0.6,
+      "samples_below_threshold": 1127,
+      "percent_below_threshold": 38.18,
+      "selective_accuracy": 0.7123,
+      "per_class_f1": {
+        "Positive": 0.7095,
+        "Negative": 0.6939,
+        "Neutral": 0.4253
+      }
+    },
+    "per_language": {
+      "fr": {
+        "samples": 270,
+        "accuracy": 0.6037,
+        "macro_f1": 0.5245
+      },
+      "de": {
+        "samples": 270,
+        "accuracy": 0.637,
+        "macro_f1": 0.5756
+      },
+      "pt": {
+        "samples": 270,
+        "accuracy": 0.6259,
+        "macro_f1": 0.5863
+      },
+      "hi": {
+        "samples": 315,
+        "accuracy": 0.6317,
+        "macro_f1": 0.6323
+      },
+      "ar": {
+        "samples": 270,
+        "accuracy": 0.5889,
+        "macro_f1": 0.5785
+      },
+      "hi-Latn": {
+        "samples": 477,
+        "accuracy": 0.6184,
+        "macro_f1": 0.587
+      },
+      "ja": {
+        "samples": 270,
+        "accuracy": 0.6074,
+        "macro_f1": 0.5561
+      },
+      "es": {
+        "samples": 270,
+        "accuracy": 0.6148,
+        "macro_f1": 0.5805
+      },
+      "it": {
+        "samples": 270,
+        "accuracy": 0.737,
+        "macro_f1": 0.7339
+      },
+      "en": {
+        "samples": 270,
+        "accuracy": 0.6704,
+        "macro_f1": 0.6583
+      }
+    },
+    "confusion_matrix": {
+      "labels": [
+        "Positive",
+        "Negative",
+        "Neutral"
+      ],
+      "matrix": [
+        [
+          740,
+          125,
+          109
+        ],
+        [
+          114,
+          814,
+          110
+        ],
+        [
+          258,
+          369,
+          313
+        ]
+      ]
+    },
+    "calibration": {
+      "ece": 0.0838,
+      "bins": [
+        {
+          "bin_index": 1,
+          "range": [
+            0.0,
+            0.1
+          ],
+          "samples": 0,
+          "accuracy": 0.0,
+          "confidence": 0.0,
+          "calibration_gap": 0.0
+        },
+        {
+          "bin_index": 2,
+          "range": [
+            0.1,
+            0.2
+          ],
+          "samples": 0,
+          "accuracy": 0.0,
+          "confidence": 0.0,
+          "calibration_gap": 0.0
+        },
+        {
+          "bin_index": 3,
+          "range": [
+            0.2,
+            0.3
+          ],
+          "samples": 0,
+          "accuracy": 0.0,
+          "confidence": 0.0,
+          "calibration_gap": 0.0
+        },
+        {
+          "bin_index": 4,
+          "range": [
+            0.3,
+            0.4
+          ],
+          "samples": 317,
+          "accuracy": 0.4921,
+          "confidence": 0.3716,
+          "calibration_gap": 0.1205
+        },
+        {
+          "bin_index": 5,
+          "range": [
+            0.4,
+            0.5
+          ],
+          "samples": 423,
+          "accuracy": 0.4775,
+          "confidence": 0.4469,
+          "calibration_gap": 0.0307
+        },
+        {
+          "bin_index": 6,
+          "range": [
+            0.5,
+            0.6
+          ],
+          "samples": 387,
+          "accuracy": 0.5401,
+          "confidence": 0.5474,
+          "calibration_gap": 0.0073
+        },
+        {
+          "bin_index": 7,
+          "range": [
+            0.6,
+            0.7
+          ],
+          "samples": 311,
+          "accuracy": 0.5916,
+          "confidence": 0.651,
+          "calibration_gap": 0.0593
+        },
+        {
+          "bin_index": 8,
+          "range": [
+            0.7,
+            0.8
+          ],
+          "samples": 391,
+          "accuracy": 0.6675,
+          "confidence": 0.7509,
+          "calibration_gap": 0.0834
+        },
+        {
+          "bin_index": 9,
+          "range": [
+            0.8,
+            0.9
+          ],
+          "samples": 633,
+          "accuracy": 0.7077,
+          "confidence": 0.8558,
+          "calibration_gap": 0.148
+        },
+        {
+          "bin_index": 10,
+          "range": [
+            0.9,
+            1.0
+          ],
+          "samples": 490,
+          "accuracy": 0.8306,
+          "confidence": 0.9297,
+          "calibration_gap": 0.099
+        }
+      ]
+    },
+    "error_samples": [
+      {
+        "text": "\u062d\u0633\u0628 \u0645\u0644\u0627\u0645\u062d\u0647\u0627 \u0627\u062d\u0633\u0647\u0627 \u062a\u062d\u0631\u0636 \u0632\u0648\u062c\u0647\u0627 \u0639\u0644\u0649 \u0627\u0645\u0647 \u0648 \u0627\u062e\u0648\u0627\u0646\u0647 \u0648 \u062a\u062d\u0628 \u0627\u0644\u0641\u0644\u0648\u0633 \u0648 \u062a\u0642\u0648\u0644\u0647 \u0642\u0633\u0645 \u0627\u0644\u0648\u0631\u062b \u0648 \u062a\u063a\u0627\u0631 \u0645\u0646 \u0627\u064a \u0648\u062d\u062f\u0647 \u062d\u064a\u0627\u062a\u0647\u0627 \u062d\u0644\u0648\u0647",
+        "language": "ar",
+        "ground_truth": "Negative",
+        "predicted": "Positive",
+        "confidence": 0.4088,
+        "probabilities": {
+          "Positive": 0.4088,
+          "Negative": 0.2078,
+          "Neutral": 0.3834
+        }
+      },
+      {
+        "text": "Se vide seule\nNe garde pas la charge. \u00c0 chaque fois que je dois utiliser ma visseuse je suis obliger de recharger la batterie qui s\u2019est vid\u00e9",
+        "language": "fr",
+        "ground_truth": "Neutral",
+        "predicted": "Negative",
+        "confidence": 0.903,
+        "probabilities": {
+          "Positive": 0.0356,
+          "Negative": 0.903,
+          "Neutral": 0.0615
+        }
+      },
+      {
+        "text": "Besser als garnichts\nEntgegen der Beschreibung kann die Wetterstation nicht aufgeh\u00e4ngt werden. Dar\u00fcber hinaus sind die Infos auf dem Display",
+        "language": "de",
+        "ground_truth": "Negative",
+        "predicted": "Neutral",
+        "confidence": 0.7307,
+        "probabilities": {
+          "Positive": 0.045,
+          "Negative": 0.2243,
+          "Neutral": 0.7307
+        }
+      },
+      {
+        "text": "Carece de doble billetera\nQuiz\u00e1s falte otro departamento billetera",
+        "language": "es",
+        "ground_truth": "Neutral",
+        "predicted": "Negative",
+        "confidence": 0.5409,
+        "probabilities": {
+          "Positive": 0.0225,
+          "Negative": 0.5409,
+          "Neutral": 0.4365
+        }
+      },
+      {
+        "text": "\u5b50\u3069\u3082\u306b\u6012\u308a\u3068\u3044\u3046\u304b\u3001\u6ce8\u610f\u306e\u3064\u3082\u308a\u3067\u3057\u305f\u304c\u3001\u305d\u308c\u3059\u3089\u75b2\u308c\u3066\u3057\u307e\u3044\u3001\u8cfc\u5165\u3002\u7406\u8ad6\u306f\u308f\u304b\u308a\u307e\u3057\u305f\u304c\u3001\u7d4c\u9a13\u8ac7\u306b\u5c02\u9580\u5bb6\u304c\u7b54\u3048\u3066\u3044\u304f\u30b9\u30bf\u30a4\u30eb\u3067\u3001\u89aa\u306e\u65b9\u304c\u60aa\u3044\u7684\u306a\u5207\u308a\u8fd4\u3057\u304c\u51b7\u305f\u304f\u611f\u3058\u308b\uff11\u518a\u3002 \u79c1\u306f\u6700\u5f8c\u307e\u3067\u8aad\u3081\u307e\u305b\u3093\u3067\u3057\u305f\u3002",
+        "language": "ja",
+        "ground_truth": "Neutral",
+        "predicted": "Negative",
+        "confidence": 0.9201,
+        "probabilities": {
+          "Positive": 0.018,
+          "Negative": 0.9201,
+          "Neutral": 0.0619
+        }
+      },
+      {
+        "text": "\u092f\u0939 \u0924\u092c \u0939\u0941\u0906 \u091c\u092c \u092e\u0948\u0902 6 \u0938\u093e\u0932 \u0915\u093e \u0925\u093e, \u092f\u0939 \u092a\u0942\u0930\u0940 \u0924\u0930\u0939 \u0938\u0947 \u0938\u092e\u091d\u0928\u093e \u0905\u0938\u0902\u092d\u0935 \u0925\u093e \u0915\u093f \u091c\u092c \u0939\u092e \u0938\u092d\u0940 \u0928\u0947 \u0938\u094d\u0915\u0942\u0932 \u092e\u0947\u0902 \u0916\u092c\u0930 \u0938\u0941\u0928\u0940 \u0924\u094b \u0915\u094d\u092f\u093e \u0939\u094b \u0930\u0939\u093e \u0925\u093e\u0964 \u092e\u0941\u091d\u0947 \u0916\u0941\u0936\u0940 \u0939\u0948 \u0915\u093f \u0907\u0938 \u0924\u0930\u0939 \u0915\u0947 ",
+        "language": "hi",
+        "ground_truth": "Positive",
+        "predicted": "Negative",
+        "confidence": 0.4977,
+        "probabilities": {
+          "Positive": 0.264,
+          "Negative": 0.4977,
+          "Neutral": 0.2383
+        }
+      },
+      {
+        "text": "Elvish bhai ek genuine question hai jab raja ko shraap tha ki 7 pidhi tak santan nahi hogi toh satvi pidhi tak baat phochegi kaise \ud83d\ude02",
+        "language": "hi-Latn",
+        "ground_truth": "Neutral",
+        "predicted": "Negative",
+        "confidence": 0.381,
+        "probabilities": {
+          "Positive": 0.2963,
+          "Negative": 0.381,
+          "Neutral": 0.3227
+        }
+      },
+      {
+        "text": "Per fare un Paese migliore CI VUOLE UNA SCUOLA MIGLIORE! #ForzaPlinio #ilfuturosiamonoi #labuonascuolasiamonoi... http",
+        "language": "it",
+        "ground_truth": "Negative",
+        "predicted": "Positive",
+        "confidence": 0.7013,
+        "probabilities": {
+          "Positive": 0.7013,
+          "Negative": 0.0912,
+          "Neutral": 0.2075
+        }
+      },
+      {
+        "text": "\u0938\u092c \u0915\u0941\u091b \u092d\u0942\u0932 \u091c\u093e\u0913 \u092e\u0941\u091d\u0947 \u0928\u0939\u0940\u0902 \u092a\u0924\u093e \u0915\u093f \u0906\u092a \u092e\u0947\u0930\u0940 \u092f\u093e\u0926\u0943\u091a\u094d\u091b\u093f\u0915 \u0938\u0942\u091a\u0940 \u092e\u0947\u0902 \u0915\u0948\u0938\u0947 \u0906\u090f \u0932\u0947\u0915\u093f\u0928 \u0906\u092a\u0928\u0947 \u092e\u0947\u0930\u093e \u0926\u093f\u0932 \u091a\u0941\u0930\u093e \u0932\u093f\u092f\u093e",
+        "language": "hi",
+        "ground_truth": "Positive",
+        "predicted": "Negative",
+        "confidence": 0.521,
+        "probabilities": {
+          "Positive": 0.1958,
+          "Negative": 0.521,
+          "Neutral": 0.2832
+        }
+      },
+      {
+        "text": "@user Uno aprende que el mejor momento de crear bonitos recuerdos es el presente, el pasado ya fue, te toca elegir lo que va a ser",
+        "language": "es",
+        "ground_truth": "Positive",
+        "predicted": "Neutral",
+        "confidence": 0.5134,
+        "probabilities": {
+          "Positive": 0.4542,
+          "Negative": 0.0323,
+          "Neutral": 0.5134
+        }
+      },
+      {
+        "text": "\u0645\u0631\u0636\u064a. \u0645\u0648\u0642\u0639 \u0627\u0644\u0641\u0646\u062f\u0642 \u0645\u0646\u0627\u0633\u0628 \u0648\u0642\u0631\u064a\u0628 \u0645\u0646 \u0645\u0648\u0644 \u0627\u0644\u0635\u064a\u0631\u0641\u064a\u0637\u0642\u0645 \u0627\u0644\u0627\u0633\u062a\u0642\u0628\u0627\u0644 \u0628\u0634\u0648\u0634 \u0648\u0645\u062a\u0639\u0627\u0648\u0646. \u0627\u0644\u0634\u0642\u0629 \u0627\u0644\u063a\u0631\u0641\u062a\u0627\u0646 \u0636\u064a\u0642\u0629 \u062c\u062f\u0627 \u0648\u062d\u0645\u0627\u0645 \u0648\u0627\u062d\u062f \u0648\u0627\u0644\u062f\u0647\u0627\u0646 \u0645\u062a\u0633\u0627\u0642\u0637 \u0648\u0644\u0627\u062a\u0646\u0627\u0633\u0628 \u0623\u0633\u0631\u0629 \u0648\u0644\u0627\u0627",
+        "language": "ar",
+        "ground_truth": "Neutral",
+        "predicted": "Negative",
+        "confidence": 0.8077,
+        "probabilities": {
+          "Positive": 0.0416,
+          "Negative": 0.8077,
+          "Neutral": 0.1508
+        }
+      },
+      {
+        "text": "N\u00e3o posso falar nada sobre o produto pois comprei e nunca chegou!",
+        "language": "pt",
+        "ground_truth": "Negative",
+        "predicted": "Neutral",
+        "confidence": 0.6441,
+        "probabilities": {
+          "Positive": 0.025,
+          "Negative": 0.3309,
+          "Neutral": 0.6441
+        }
+      },
+      {
+        "text": "#rt seguimi e ti seguo e ti aggiungo alla mia lista aumenta followers c:",
+        "language": "it",
+        "ground_truth": "Positive",
+        "predicted": "Neutral",
+        "confidence": 0.5773,
+        "probabilities": {
+          "Positive": 0.391,
+          "Negative": 0.0317,
+          "Neutral": 0.5773
+        }
+      },
+      {
+        "text": "Attention\nNe fonctionne pas sur ma tablette pourtant indiqu\u00e9e en r\u00e9f\u00e9rence sur ce produit.",
+        "language": "fr",
+        "ground_truth": "Neutral",
+        "predicted": "Negative",
+        "confidence": 0.6634,
+        "probabilities": {
+          "Positive": 0.0355,
+          "Negative": 0.6634,
+          "Neutral": 0.3011
+        }
+      },
+      {
+        "text": "Bache k paao paalne se bahir aa gy ha",
+        "language": "hi-Latn",
+        "ground_truth": "Neutral",
+        "predicted": "Negative",
+        "confidence": 0.3766,
+        "probabilities": {
+          "Positive": 0.318,
+          "Negative": 0.3766,
+          "Neutral": 0.3053
+        }
+      },
+      {
+        "text": "gostei do produto, s\u00f3 demorou muito entrega comprei dia 12/12 foi entregue dia 08/01 isso n\u00e3o e legal.",
+        "language": "pt",
+        "ground_truth": "Neutral",
+        "predicted": "Negative",
+        "confidence": 0.8405,
+        "probabilities": {
+          "Positive": 0.0251,
+          "Negative": 0.8405,
+          "Neutral": 0.1344
+        }
+      },
+      {
+        "text": "Bossi: \u00abIl governo Monti fa schifo, sono improvvisati\u00bb. Il trota invece, e Calderoli, mirabili statisti.",
+        "language": "it",
+        "ground_truth": "Positive",
+        "predicted": "Negative",
+        "confidence": 0.9658,
+        "probabilities": {
+          "Positive": 0.0149,
+          "Negative": 0.9658,
+          "Neutral": 0.0193
+        }
+      },
+      {
+        "text": "\u0645\u0643\u0629 \u0628\u062f\u0627\u062a \u062a\u062a\u0637\u0648\u0631\ud83d\ude02\ud83d\udc94\u0628\u0633 \u0627\u0644\u0644\u0647 \u064a\u062e\u0644\u064a\u0643\u0645 \u0645\u0627\u0646\u0628\u0627 \u0646\u0645\u0633\u0643 \u0633\u0631\u0627 \u0633\u0627\u0639\u0647 \u0639\u0634\u0627\u0646 \u0646\u0627\u0643\u0644",
+        "language": "ar",
+        "ground_truth": "Positive",
+        "predicted": "Neutral",
+        "confidence": 0.3547,
+        "probabilities": {
+          "Positive": 0.3087,
+          "Negative": 0.3365,
+          "Neutral": 0.3547
+        }
+      },
+      {
+        "text": "\u0627\u0646\u062a\u0647\u064a\u062a \u0627\u0644\u0628\u0627\u0631\u062d\u0629 \u0645\u0646 \u0642\u0631\u0627\u0621\u0629 \u0623\u0648\u0644 \u0639\u0645\u0644 \u0623\u0642\u0631\u0623\u0647 \u0644\u0644\u0631\u0648\u0627\u0626\u064a \u0627\u0644\u0644\u064a\u0628\u064a \u0627\u0644\u0628\u0627\u0631\u0632 \u0625\u0628\u0631\u0627\u0647\u064a\u0645 \u0627\u0644\u0643\u0648\u0646\u064a\u060c \u0648\u0648\u0641\u0642\u0627 \u0644\u062a\u0648\u0635\u064a\u0629 \u0627\u0644\u0623\u0635\u062f\u0642\u0627\u0621 \u0641\u0642\u062f \u0622\u062b\u0631\u062a \u0627\u0644\u062a\u0639\u0631\u0641 \u0625\u0644\u0649 \u0647\u0630\u0627 \u0627\u0644\u0643\u0627\u062a\u0628 \u0639\u0646 \u0637\u0631\u064a\u0642\u0629 \u0631\u0628",
+        "language": "ar",
+        "ground_truth": "Neutral",
+        "predicted": "Negative",
+        "confidence": 0.3774,
+        "probabilities": {
+          "Positive": 0.3012,
+          "Negative": 0.3774,
+          "Neutral": 0.3213
+        }
+      },
+      {
+        "text": "Bien mais d\u00e9\u00e7u de l'emballage\nLes boules sont pareil que sur la photo et elle sentent tr\u00e8s bon, ma fille les adore. Par contre je suis decu ",
+        "language": "fr",
+        "ground_truth": "Positive",
+        "predicted": "Negative",
+        "confidence": 0.4965,
+        "probabilities": {
+          "Positive": 0.4147,
+          "Negative": 0.4965,
+          "Neutral": 0.0887
+        }
+      },
+      {
+        "text": "\u30e1\u30ac\u30cd\u3092\u3057\u3066\u3044\u308b\u306e\u3067\u30d8\u30c3\u30c9\u30db\u30f3\u3060\u3068\u5c11\u3057\u8033\u304c\u75db\u304f\u306a\u308b\u306e\u3067\u30ef\u30a4\u30e4\u30ec\u30b9\u3092\u8cfc\u5165\u3057\u3066\u307f\u307e\u3057\u305f\u3002\u3068\u3066\u3082\u8efd\u304f\u3044\u3044\u843d\u3061\u3066\u6765\u306a\u3044\u306e\u3067\u6e80\u8db3\u3067\u3057\u305f\u304c\u6570\u56de\u4f7f\u7528\u3057\u305f\u3060\u3051\u3067\u30d0\u30c3\u30c6\u30ea\u30fc\u304c\u30c0\u30e1\u306b\u306a\u3063\u3066\u3057\u307e\u3044\u307e\u3057\u305f\u3002\u4fbf\u5229\u3067\u5feb\u9069\u3060\u3063\u305f\u306e\u3067\u3059\u304c\u30cf\u30ba\u30ec\u3092\u5f15\u3044\u3066\u3057\u307e\u3063\u305f\u3088\u3046\u3067\u3059\u306d\u3002\u3068\u3066\u3082\u6b8b\u5ff5\u3067\u3057\u305f",
+        "language": "ja",
+        "ground_truth": "Neutral",
+        "predicted": "Negative",
+        "confidence": 0.9104,
+        "probabilities": {
+          "Positive": 0.0319,
+          "Negative": 0.9104,
+          "Neutral": 0.0576
+        }
+      },
+      {
+        "text": "\u090f\u0915 \u092d\u094d\u0930\u093e\u092e\u0915 \u0936\u0940\u0930\u094d\u0937\u0915 \u0915\u0940 \u0924\u0930\u0939 \u0932\u0917 \u0930\u0939\u093e \u0925\u093e-\u0935\u0939 \u0935\u093f\u0937\u092f \u0935\u0940\u0921\u093f\u092f\u094b \u0915\u093e 10 \u0938\u0947\u0915\u0902\u0921 \u0925\u093e\u0964",
+        "language": "hi",
+        "ground_truth": "Negative",
+        "predicted": "Neutral",
+        "confidence": 0.5403,
+        "probabilities": {
+          "Positive": 0.1576,
+          "Negative": 0.3021,
+          "Neutral": 0.5403
+        }
+      },
+      {
+        "text": "Isliye mai kavi bhi single person review pe believe nhi krta, sbse Best public review usme honest review ka pata chalta hai.",
+        "language": "hi-Latn",
+        "ground_truth": "Neutral",
+        "predicted": "Negative",
+        "confidence": 0.3752,
+        "probabilities": {
+          "Positive": 0.2961,
+          "Negative": 0.3752,
+          "Neutral": 0.3288
+        }
+      },
+      {
+        "text": "\u30de\u30b8\u30c3\u30af\u30c6\u30fc\u30d7\u306e\u52a3\u5316\n\u30de\u30b8\u30c3\u30af\u30c6\u30fc\u30d7\u306e\u52a3\u5316\u304c\u65e9\u3044\u3088\u3046\u306a\u6c17\u304c\u3057\u307e\u3059\u3002",
+        "language": "ja",
+        "ground_truth": "Negative",
+        "predicted": "Neutral",
+        "confidence": 0.4364,
+        "probabilities": {
+          "Positive": 0.1349,
+          "Negative": 0.4286,
+          "Neutral": 0.4364
+        }
+      },
+      {
+        "text": "\u826f\u304f\u3082\u60aa\u304f\u3082\u30af\u30e9\u30b7\u30c3\u30af\n\u8d64\u3044\u30b0\u30ea\u30c3\u30d7\u306f\u30ef\u30f3\u30dd\u30a4\u30f3\u30c8\u3067\u826f\u3044\u306e\u3067\u3059\u304c\u3001\u3053\u306e\u5857\u88c5\u306e\u305b\u3044\u3067\u30b0\u30ea\u30c3\u30d7\u304c\u6ed1\u308a\u307e\u3059\ud83d\udca6\u4f5c\u308a\u3082\u305d\u308c\u306a\u308a\u3067\u3059\u304c\u6570\u5343\u5186\u306e\u30ca\u30a4\u30d5\u306a\u306e\u3067\u826f\u3057\u3068\u3057\u307e\u3057\u3087\u3046\u3002\u3053\u306e\u30ca\u30a4\u30d5\u306b\u4f55\u4e07\u3082\u51fa\u3057\u3066\u8cb7\u304a\u3046\u3068\u8003\u3048\u3066\u3044\u308b\u4eba\u306f\u306f\u3084\u3081\u3068\u304d\u307e\u3057\u3087\u3046w",
+        "language": "ja",
+        "ground_truth": "Positive",
+        "predicted": "Negative",
+        "confidence": 0.8175,
+        "probabilities": {
+          "Positive": 0.0687,
+          "Negative": 0.8175,
+          "Neutral": 0.1138
+        }
+      }
+    ]
+  }
+}

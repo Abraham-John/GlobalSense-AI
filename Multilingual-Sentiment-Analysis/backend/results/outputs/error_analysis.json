@@ -1,0 +1,305 @@
+{
+  "total_errors_analyzed": 25,
+  "samples": [
+    {
+      "text": "Veio faltando parafusos e a parte de acento e encosto fica tudo solta.",
+      "language": "pt",
+      "ground_truth": "Negative",
+      "predicted": "Positive",
+      "confidence": 0.4028,
+      "probabilities": {
+        "Positive": 0.4028,
+        "Negative": 0.3494,
+        "Neutral": 0.2478
+      }
+    },
+    {
+      "text": "حسب ملامحها احسها تحرض زوجها على امه و اخوانه و تحب الفلوس و تقوله قسم الورث و تغار من اي وحده حياتها حلوه",
+      "language": "ar",
+      "ground_truth": "Negative",
+      "predicted": "Neutral",
+      "confidence": 0.443,
+      "probabilities": {
+        "Positive": 0.3968,
+        "Negative": 0.1602,
+        "Neutral": 0.443
+      }
+    },
+    {
+      "text": "AR Rahman is picture mein kya kar raha hai?",
+      "language": "hi-Latn",
+      "ground_truth": "Neutral",
+      "predicted": "Negative",
+      "confidence": 0.63,
+      "probabilities": {
+        "Positive": 0.0962,
+        "Negative": 0.63,
+        "Neutral": 0.2737
+      }
+    },
+    {
+      "text": "子どもに怒りというか、注意のつもりでしたが、それすら疲れてしまい、購入。理論はわかりましたが、経験談に専門家が答えていくスタイルで、親の方が悪い的な切り返しが冷たく感じる１冊。 私は最後まで読めませんでした。",
+      "language": "ja",
+      "ground_truth": "Neutral",
+      "predicted": "Negative",
+      "confidence": 0.6017,
+      "probabilities": {
+        "Positive": 0.0604,
+        "Negative": 0.6017,
+        "Neutral": 0.3379
+      }
+    },
+    {
+      "text": "यह तब हुआ जब मैं 6 साल का था, यह पूरी तरह से समझना असंभव था कि जब हम सभी ने स्कूल में खबर सुनी तो क्या हो रहा था। मुझे खुशी है कि इस तरह के वृत्तचित्र हैं ताकि हम वापस जा सकें और एक झलक पा सकें कि यह उस समय कितना चौंकाने वाला और दुखद था। आज भी बहुत भयावह है।",
+      "language": "hi",
+      "ground_truth": "Positive",
+      "predicted": "Neutral",
+      "confidence": 0.4744,
+      "probabilities": {
+        "Positive": 0.3084,
+        "Negative": 0.2172,
+        "Neutral": 0.4744
+      }
+    },
+    {
+      "text": "Pas mal\nTesté qu'une fois pour le moment. J'attend de faire ma coloration. Le shampoing est violet métallique, il sent très bon mais ne mousse absolument pas. Après le shampoing mes cheveux étaient lisses et brillant. ( pas miraculeux non plus puisque j'en prend soin tout les jours)",
+      "language": "fr",
+      "ground_truth": "Positive",
+      "predicted": "Negative",
+      "confidence": 0.5964,
+      "probabilities": {
+        "Positive": 0.1585,
+        "Negative": 0.5964,
+        "Neutral": 0.2451
+      }
+    },
+    {
+      "text": "Elvish bhai ek genuine question hai jab raja ko shraap tha ki 7 pidhi tak santan nahi hogi toh satvi pidhi tak baat phochegi kaise 😂",
+      "language": "hi-Latn",
+      "ground_truth": "Neutral",
+      "predicted": "Positive",
+      "confidence": 0.4608,
+      "probabilities": {
+        "Positive": 0.4608,
+        "Negative": 0.2512,
+        "Neutral": 0.288
+      }
+    },
+    {
+      "text": "Per fare un Paese migliore CI VUOLE UNA SCUOLA MIGLIORE! #ForzaPlinio #ilfuturosiamonoi #labuonascuolasiamonoi... http",
+      "language": "it",
+      "ground_truth": "Negative",
+      "predicted": "Positive",
+      "confidence": 0.6708,
+      "probabilities": {
+        "Positive": 0.6708,
+        "Negative": 0.226,
+        "Neutral": 0.1032
+      }
+    },
+    {
+      "text": "सब कुछ भूल जाओ मुझे नहीं पता कि आप मेरी यादृच्छिक सूची में कैसे आए लेकिन आपने मेरा दिल चुरा लिया",
+      "language": "hi",
+      "ground_truth": "Positive",
+      "predicted": "Neutral",
+      "confidence": 0.4445,
+      "probabilities": {
+        "Positive": 0.3155,
+        "Negative": 0.24,
+        "Neutral": 0.4445
+      }
+    },
+    {
+      "text": "और अब हमें इन सभी उपकरणों की कीमतें बताएं",
+      "language": "hi",
+      "ground_truth": "Neutral",
+      "predicted": "Positive",
+      "confidence": 0.4688,
+      "probabilities": {
+        "Positive": 0.4688,
+        "Negative": 0.153,
+        "Neutral": 0.3782
+      }
+    },
+    {
+      "text": "@user Uno aprende que el mejor momento de crear bonitos recuerdos es el presente, el pasado ya fue, te toca elegir lo que va a ser",
+      "language": "es",
+      "ground_truth": "Positive",
+      "predicted": "Negative",
+      "confidence": 0.4031,
+      "probabilities": {
+        "Positive": 0.3124,
+        "Negative": 0.4031,
+        "Neutral": 0.2845
+      }
+    },
+    {
+      "text": "#Movimento5Stelle E #Grillo va, alla conquista del paese! | hubmagazine http",
+      "language": "it",
+      "ground_truth": "Positive",
+      "predicted": "Neutral",
+      "confidence": 0.5571,
+      "probabilities": {
+        "Positive": 0.3466,
+        "Negative": 0.0962,
+        "Neutral": 0.5571
+      }
+    },
+    {
+      "text": "#rt seguimi e ti seguo e ti aggiungo alla mia lista aumenta followers c:",
+      "language": "it",
+      "ground_truth": "Positive",
+      "predicted": "Neutral",
+      "confidence": 0.6243,
+      "probabilities": {
+        "Positive": 0.1262,
+        "Negative": 0.2495,
+        "Neutral": 0.6243
+      }
+    },
+    {
+      "text": "たまごかけご飯に使ってみましたが、臭みがあり、我が家では不評でした。",
+      "language": "ja",
+      "ground_truth": "Negative",
+      "predicted": "Neutral",
+      "confidence": 0.4842,
+      "probabilities": {
+        "Positive": 0.2891,
+        "Negative": 0.2267,
+        "Neutral": 0.4842
+      }
+    },
+    {
+      "text": "Attention\nNe fonctionne pas sur ma tablette pourtant indiquée en référence sur ce produit.",
+      "language": "fr",
+      "ground_truth": "Neutral",
+      "predicted": "Negative",
+      "confidence": 0.64,
+      "probabilities": {
+        "Positive": 0.0384,
+        "Negative": 0.64,
+        "Neutral": 0.3216
+      }
+    },
+    {
+      "text": "Bache k paao paalne se bahir aa gy ha",
+      "language": "hi-Latn",
+      "ground_truth": "Neutral",
+      "predicted": "Positive",
+      "confidence": 0.4399,
+      "probabilities": {
+        "Positive": 0.4399,
+        "Negative": 0.3068,
+        "Neutral": 0.2533
+      }
+    },
+    {
+      "text": "gostei do produto, só demorou muito entrega comprei dia 12/12 foi entregue dia 08/01 isso não e legal.",
+      "language": "pt",
+      "ground_truth": "Neutral",
+      "predicted": "Positive",
+      "confidence": 0.4572,
+      "probabilities": {
+        "Positive": 0.4572,
+        "Negative": 0.3536,
+        "Neutral": 0.1893
+      }
+    },
+    {
+      "text": "Bossi: «Il governo Monti fa schifo, sono improvvisati». Il trota invece, e Calderoli, mirabili statisti.",
+      "language": "it",
+      "ground_truth": "Positive",
+      "predicted": "Negative",
+      "confidence": 0.8435,
+      "probabilities": {
+        "Positive": 0.1243,
+        "Negative": 0.8435,
+        "Neutral": 0.0322
+      }
+    },
+    {
+      "text": "انتهيت البارحة من قراءة أول عمل أقرأه للروائي الليبي البارز إبراهيم الكوني، ووفقا لتوصية الأصدقاء فقد آثرت التعرف إلى هذا الكاتب عن طريقة رباعية الخسوف . أجلت قراءة الكوني طويلا، وفي الحقيقة بعد قراءة الرواية لا أشعر أنني خسرت الكثير.. لا أدري ما إذا كان سقف توقعاتي عاليا بسبب حديث زوجتي والأصدقاء عن الرواية ، لكنني بصدق لم أنبهر بها، والأهم بالنسبة لي أنني لم أستمتع بها. لا ينكر أن الكوني اختار عالما روائيا بديعا، حياة الأمازيغ الصحراوية التي لا نكاد نحن المشرقيون نعرف عنها شيئا، كما أنه وظف بعض الأساطير الأمازيغية المثيرةالتي تشد انتباه القارئ وتدخله عالما سحريا يتعرف من خلاله على صراع الإنسان مع الطبيعة ونفسه وبني جنسه.. ولكن في المجمل، لم أجد العمل مبهرا. لغة الرواية عادية جدا، وشخصيات الرواية لم يقنعني تطورها وسلوكها على طول الرواية، كما أن الحكاية نفسها لم أجد فيها ذلك الإبداع العجيب الذي كنت أتوقعه. تصرفات غوما لا تقنع كثيرا كزعيم قبيلة.. باختصار، الكوني اختار عالما روائيا ممتازا، لكنه كان يمكن أن يصيغه ويصيغ شخوصه وحكاياتهم بطريقة أكثر إبهارا. من قرأ مدن الملح مثلا يعرف كيف استطاع عبدالرحمن منيف شد القارئ إلى عالم الرواية ليصبح كأنه واحدا من الشخصيات، ومن قرأ لعبده خال يعرف معنى غزارة الخيال.",
+      "language": "ar",
+      "ground_truth": "Neutral",
+      "predicted": "Negative",
+      "confidence": 0.5084,
+      "probabilities": {
+        "Positive": 0.2306,
+        "Negative": 0.5084,
+        "Neutral": 0.261
+      }
+    },
+    {
+      "text": "Bien mais déçu de l'emballage\nLes boules sont pareil que sur la photo et elle sentent très bon, ma fille les adore. Par contre je suis decu de l'emballage il était déjà ouvert.",
+      "language": "fr",
+      "ground_truth": "Positive",
+      "predicted": "Negative",
+      "confidence": 0.3648,
+      "probabilities": {
+        "Positive": 0.2835,
+        "Negative": 0.3648,
+        "Neutral": 0.3517
+      }
+    },
+    {
+      "text": "メガネをしているのでヘッドホンだと少し耳が痛くなるのでワイヤレスを購入してみました。とても軽くいい落ちて来ないので満足でしたが数回使用しただけでバッテリーがダメになってしまいました。便利で快適だったのですがハズレを引いてしまったようですね。とても残念でした",
+      "language": "ja",
+      "ground_truth": "Neutral",
+      "predicted": "Positive",
+      "confidence": 0.3934,
+      "probabilities": {
+        "Positive": 0.3934,
+        "Negative": 0.263,
+        "Neutral": 0.3436
+      }
+    },
+    {
+      "text": "help meeeeeee sto scoppiando ...e deve ancora arrivare la pasta... 8-X!!!",
+      "language": "it",
+      "ground_truth": "Positive",
+      "predicted": "Negative",
+      "confidence": 0.7162,
+      "probabilities": {
+        "Positive": 0.2098,
+        "Negative": 0.7162,
+        "Neutral": 0.074
+      }
+    },
+    {
+      "text": "एक भ्रामक शीर्षक की तरह लग रहा था-वह विषय वीडियो का 10 सेकंड था।",
+      "language": "hi",
+      "ground_truth": "Negative",
+      "predicted": "Positive",
+      "confidence": 0.4606,
+      "probabilities": {
+        "Positive": 0.4606,
+        "Negative": 0.1749,
+        "Neutral": 0.3645
+      }
+    },
+    {
+      "text": "Keine Bilder, keine deutsche Beschreibung\nHätte es gerne in Gebrauch genommen, aber ich weiss noch nicht wie, kann leider kein Chinesisch",
+      "language": "de",
+      "ground_truth": "Negative",
+      "predicted": "Neutral",
+      "confidence": 0.5795,
+      "probabilities": {
+        "Positive": 0.0167,
+        "Negative": 0.4039,
+        "Neutral": 0.5795
+      }
+    },
+    {
+      "text": "Isliye mai kavi bhi single person review pe believe nhi krta, sbse Best public review usme honest review ka pata chalta hai.",
+      "language": "hi-Latn",
+      "ground_truth": "Neutral",
+      "predicted": "Positive",
+      "confidence": 0.3637,
+      "probabilities": {
+        "Positive": 0.3637,
+        "Negative": 0.3565,
+        "Neutral": 0.2798
+      }
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+env/
+venv/
+.venv/
+build/
+dist/
+*.egg-info/
+
+# Frontend
+node_modules/
+.npm
+frontend/dist/
+.vite/
+
+# Large Model Binaries and Cache (>100MB rejected by GitHub)
+*.bin
+*.safetensors
+*.pt
+*.h5
+*.arrow
+backend/models/pretrained_xlmr/*.safetensors
+backend/models/pretrained_xlmr/*.bin
+backend/models/xlmr/*.safetensors
+backend/models/xlmr/*.bin
+backend/dataset/raw/
+!backend/models/.gitkeep
+
+# Environment & IDE
+.env
+.env.local
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

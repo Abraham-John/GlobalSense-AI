@@ -1,0 +1,118 @@
+{
+  "model_name": "Fine-Tuned xlm-roberta-base",
+  "device": "cpu",
+  "is_tiny_sample_test": true,
+  "overall": {
+    "accuracy": 0.5333,
+    "macro_f1": 0.4461,
+    "weighted_f1": 0.4461,
+    "precision_macro": 0.4722,
+    "recall_macro": 0.5333,
+    "latency_ms_per_sample": 165.913,
+    "train_time_sec": 17.94,
+    "test_sample_count": 15
+  },
+  "per_class_f1": {
+    "Positive": 0.0,
+    "Negative": 0.75,
+    "Neutral": 0.5882
+  },
+  "confusion_matrix": {
+    "labels": [
+      "Positive",
+      "Negative",
+      "Neutral"
+    ],
+    "matrix": [
+      [
+        0,
+        0,
+        5
+      ],
+      [
+        0,
+        3,
+        2
+      ],
+      [
+        0,
+        0,
+        5
+      ]
+    ]
+  },
+  "per_language": {
+    "hi": {
+      "samples": 2,
+      "accuracy": 0.0,
+      "macro_f1": 0.0,
+      "precision_macro": 0.0,
+      "recall_macro": 0.0
+    },
+    "hi-Latn": {
+      "samples": 3,
+      "accuracy": 0.6667,
+      "macro_f1": 0.5556,
+      "precision_macro": 0.5,
+      "recall_macro": 0.6667
+    },
+    "fr": {
+      "samples": 4,
+      "accuracy": 0.5,
+      "macro_f1": 0.3333,
+      "precision_macro": 0.25,
+      "recall_macro": 0.5
+    },
+    "es": {
+      "samples": 1,
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "precision_macro": 1.0,
+      "recall_macro": 1.0
+    },
+    "de": {
+      "samples": 1,
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "precision_macro": 1.0,
+      "recall_macro": 1.0
+    },
+    "it": {
+      "samples": 1,
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "precision_macro": 1.0,
+      "recall_macro": 1.0
+    },
+    "pt": {
+      "samples": 1,
+      "accuracy": 0.0,
+      "macro_f1": 0.0,
+      "precision_macro": 0.0,
+      "recall_macro": 0.0
+    },
+    "ar": {
+      "samples": 1,
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "precision_macro": 1.0,
+      "recall_macro": 1.0
+    },
+    "ja": {
+      "samples": 1,
+      "accuracy": 0.0,
+      "macro_f1": 0.0,
+      "precision_macro": 0.0,
+      "recall_macro": 0.0
+    }
+  },
+  "training_history": [
+    {
+      "epoch": 1,
+      "train_loss": 1.1108,
+      "val_loss": 1.1001,
+      "val_accuracy": 0.2667,
+      "val_macro_f1": 0.1569
+    }
+  ]
+}
