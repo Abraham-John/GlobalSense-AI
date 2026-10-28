@@ -12,7 +12,6 @@
 
 - 📖 **Project Report:** [docs/Project_Report.md](file:///c:/Users/Administrator/Documents/antigravity/peaceful-carson/docs/Project_Report.md)
 - 🔬 **Literature Review:** [docs/Literature_Review.md](file:///c:/Users/Administrator/Documents/antigravity/peaceful-carson/docs/Literature_Review.md)
-- 🎓 **Viva Questions & Answers:** [docs/Viva_Questions.md](file:///c:/Users/Administrator/Documents/antigravity/peaceful-carson/docs/Viva_Questions.md)
 - 📊 **Presentation Outline (12 Slides):** [docs/Presentation_Outline.md](file:///c:/Users/Administrator/Documents/antigravity/peaceful-carson/docs/Presentation_Outline.md)
 - 🔍 **Original Project Analysis:** [docs/Original_Project_Analysis.md](file:///c:/Users/Administrator/Documents/antigravity/peaceful-carson/docs/Original_Project_Analysis.md)
 - 💻 **Main Project Codebase:** [Multilingual-Sentiment-Analysis/](file:///c:/Users/Administrator/Documents/antigravity/peaceful-carson/Multilingual-Sentiment-Analysis/)
